@@ -4,10 +4,12 @@ Parameters:
   SiteName:
     Default: "millermaskproject.com"
     Type: String
-Mappings:
-  RegionMap:
-    us-west-2:
-      S3hostedzoneID: Z005538517DW7PO9QXUXQ # created by route53 registrar
+  AcmCertArn:
+    Default: "arn:aws:acm:us-east-1:437357098352:certificate/cc7bb438-294b-4170-8270-f8478ea90c9a" # created in console
+    Type: String
+  HostedzoneID: 
+    Default: Z2FDTNDATAQYW2 # This is always the hosted zone ID when you create an alias record that routes traffic to a CloudFront distribution.
+    Type: String
 Resources:
   StaticContent:
     Type: AWS::S3::Bucket
@@ -29,18 +31,19 @@ Resources:
     Type: AWS::S3::BucketPolicy
     Properties:
       PolicyDocument:
-        Id: PolicyForStaticSite
-        Effect: Allow
-        Principal: "*"
-        Action: "s3:GetObject"
-        Resource: !Sub "arn:aws:s3:::${ SiteName }/*"
+        Statement:
+        - Sid: PolicyForStaticSite
+          Effect: Allow
+          Principal: "*"
+          Action: "s3:GetObject"
+          Resource: !Sub "arn:aws:s3:::${ SiteName }/*"
       Bucket: !Ref StaticContent
   CloudfrontDistro:
     Type: AWS::CloudFront::Distribution
     Properties:
       DistributionConfig:
         Origins:
-        - DomainName: !Select [2, !Split ["/", !GetAtt StaticContent.WebsiteURL]]
+        - DomainName: !Select [2, !Split ["/", !GetAtt StaticContent.WebsiteURL]] # strip https://
           Id: S3Origin
           CustomOriginConfig:
             HTTPPort: 80
@@ -51,6 +54,7 @@ Resources:
         DefaultRootObject: index.html
         Aliases:
           - !Sub "www.${ SiteName }"
+          - !Sub "${ SiteName }"
         DefaultCacheBehavior:
           AllowedMethods:
           - GET
@@ -63,25 +67,25 @@ Resources:
               Forward: none
           ViewerProtocolPolicy: redirect-to-https
         PriceClass: PriceClass_All
+        ViewerCertificate:
+          AcmCertificateArn: !Ref AcmCertArn
+          SslSupportMethod: sni-only
+    DependsOn:
+      - StaticContent
+      - WWWContent
+      - BucketPolicy
   Dns:
     Type: AWS::Route53::RecordSetGroup
     Properties:
+      Comment: !Sub "Cloudfront DNS for ${ SiteName }"
       HostedZoneName: !Sub "${ SiteName }."
-      Comment: Zone apex alias.
       RecordSets:
-      - 
-        Name: !Ref SiteName
+      - Name: !Sub "${ SiteName }"
         Type: A
         AliasTarget:
-          HostedZoneId: !FindInMap [ RegionMap, 'us-west-2', S3hostedzoneID]
+          HostedZoneId: !Ref HostedzoneID
           DNSName: !GetAtt CloudfrontDistro.DomainName
-      -
-        Name: !Sub "www.${ SiteName }"
-        Type: CNAME
-        TTL: 900
-        ResourceRecords:
-          - !GetAtt WWWContent.DomainName
 Outputs:
-  WebsiteUrl:
+  S3WebsiteUrl:
     Value: !GetAtt StaticContent.WebsiteURL
-    Description: URL for website
+    Description: S3 URL for website
