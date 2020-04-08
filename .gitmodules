@@ -1,0 +1,6 @@
+[submodule "millerd/themes/ananke"]
+	path = millermaskproject/themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/hugo-coder"]
+	path = millermaskproject/themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
