@@ -1,4 +1,4 @@
-baseURL = "http://millermaskproject.com/"
+baseURL = "https://millermaskproject.com/"
 languageCode = "en"
 title = "millermaskproject"
 theme = "vex"
@@ -19,8 +19,6 @@ theme = "vex"
   URL = "css/owl.carousel.css"
   [[params.plugins.css]]
   URL = "css/magnific-popup.css"
-  [[params.plugins.css]]
-  URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.css"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -31,8 +29,6 @@ theme = "vex"
   URL = "js/owl.carousel.min.js"
   [[params.plugins.js]]
   URL = "js/jquery.magnific-popup.min.js"
-  [[params.plugins.js]]
-  URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
 
 
 ###################################### Navigation ######################################
@@ -83,7 +79,7 @@ URL = "s3://millermaskproject.com?region=us-west-2"
 
 [[deployment.matchers]]
 # Cache static assets for 20 years. should be good
-pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
+pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf|woff|eot|xml)$"
 cacheControl = "max-age=630720000, no-transform, public"
 gzip = true
 

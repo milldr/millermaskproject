@@ -34,7 +34,8 @@ Resources:
         Statement:
         - Sid: PolicyForStaticSite
           Effect: Allow
-          Principal: "*"
+          Principal:
+            CanonicalUser: !GetAtt CloudfrontOriginAccessIdentity.S3CanonicalUserId
           Action: "s3:GetObject"
           Resource: !Sub "arn:aws:s3:::${ SiteName }/*"
       Bucket: !Ref StaticContent
@@ -43,12 +44,11 @@ Resources:
     Properties:
       DistributionConfig:
         Origins:
-        - DomainName: !Select [2, !Split ["/", !GetAtt StaticContent.WebsiteURL]] # strip https://
+        - DomainName: !Join [ "", [ !Ref StaticContent, ".s3.amazonaws.com" ] ]
           Id: S3Origin
-          CustomOriginConfig:
-            HTTPPort: 80
-            HTTPSPort: 443
-            OriginProtocolPolicy: http-only
+          S3OriginConfig: 
+            OriginAccessIdentity:
+              !Sub "origin-access-identity/cloudfront/${ CloudfrontOriginAccessIdentity }"
         Enabled: true
         HttpVersion: 'http2'
         DefaultRootObject: index.html
@@ -74,6 +74,11 @@ Resources:
       - StaticContent
       - WWWContent
       - BucketPolicy
+  CloudfrontOriginAccessIdentity:
+    Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
+    Properties:
+      CloudFrontOriginAccessIdentityConfig:
+        Comment: !Sub 'CloudFront OAI for ${ SiteName}'
   Dns:
     Type: AWS::Route53::RecordSetGroup
     Properties:

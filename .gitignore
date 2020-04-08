@@ -1,3 +1,5 @@
 millermaskproject/static/*
 millermaskproject/public/*
 millermaskproject/resources/*
+*~
+.DS_Store
