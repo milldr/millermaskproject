@@ -1,2 +1,4 @@
-millerd/themes/*
-millerd/static/*
+millermaskproject/themes/*
+millermaskproject/static/*
+millermaskproject/public/*
+millermaskproject/resources/*
