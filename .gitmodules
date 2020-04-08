@@ -1,6 +1,0 @@
-[submodule "millermaskproject/themes/hargo"]
-	path = millermaskproject/themes/hargo
-	url = https://github.com/themefisher/hargo
-[submodule "millermaskproject/millermaskproject/themes/hargo"]
-	path = millermaskproject/millermaskproject/themes/hargo
-	url = git@github.com:themefisher/hargo.git
