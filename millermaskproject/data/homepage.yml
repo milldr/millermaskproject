@@ -1,0 +1,127 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "blah blah masks good virus bad"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+  image : "images/showcase/showcase-1.JPG"
+  button: "Order now"
+
+############################# Feature ############################
+features:
+  enable : true
+  title : "why"
+
+  # feature at the left of the image
+  leftSide:
+    # feature item loop
+  - icon : "tf-ion-ios-alarm-outline"
+    title : "Reason to wear 1 ... these images will be different"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    
+    # feature item loop
+  - icon : "tf-ion-ios-bell-outline"
+    title : "Reason to wear 2"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    
+    # feature item loop
+  - icon : "tf-ion-ios-cart-outline"
+    title : "Reason to wear 2"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+
+  # feature at the right of the image
+  rightSide:
+    # feature item loop
+  - icon : "tf-ion-ios-alarm-outline"
+    title : "Reason to wear 2"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+    # feature item loop
+  - icon : "tf-ion-ios-bell-outline"
+    title : "Reason to wear 2"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+    # feature item loop
+  - icon : "tf-ion-ios-cart-outline"
+    title : "Reason to wear 2"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+
+############################# promo ############################
+promo:
+  enable : true
+  image : "images/showcase/showcase-3.JPG"
+  title : "Stop the Spread!"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
+            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+
+
+############################# About Product #######################
+aboutProduct:
+  enable : true
+  title : "Meet the Makers"
+  items:
+    # about product item loop
+    - image : "images/showcase/showcase-1.JPG"
+      title : "Nancy"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : true
+        label : "Place an Order"
+        link : "#"
+        
+    # about product item loop
+    - image : "images/showcase/showcase-2.JPG"
+      title : "Someone else"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : true
+        label : "Place an Order"
+        link : "#"
+
+
+#################################### Gallery ########################
+gallery:
+  enable : true
+  title : "Showcase"
+  # Set the image directory to use as base
+  directory : "images/showcase"
+  # Set the images to show in the gallery
+  images : ["showcase-1.JPG", "showcase-2.JPG", "showcase-3.JPG", "showcase-4.JPG"]
+
+
+################################## call to action ###################
+cta:
+  enable : true
+  # bgImage : "images/call-to-action.jpg"
+  title : "Make a Donation!"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  button:
+    enable : true
+    label : "Donate Now"
+    link: "http://help.feedingamerica.org/goto/MillerMaskProject"
+        
+
+############################## Testimonial ##########################
+testimonials:
+  enable : true
+  title : "Testimonials, maybe FAQ here"
+  testimonialItem:
+    - name : "Nancy Miller"
+      designation : "Founder"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+      
+    - name : "Tim"
+      designation : "Helper"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+      
+    - name : "Another Person"
+      designation : "Friend"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+

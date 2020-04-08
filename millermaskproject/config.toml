@@ -1,3 +1,92 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://millermaskproject.com/"
+languageCode = "en"
+title = "millermaskproject"
+theme = "vex"
+
+#################################### Plugins ##########################################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700"
+  [[params.plugins.css]]
+  URL = "https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700"
+  [[params.plugins.css]]
+  URL = "css/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "css/themefisher-fonts.css"
+  [[params.plugins.css]]
+  URL = "css/owl.carousel.css"
+  [[params.plugins.css]]
+  URL = "css/magnific-popup.css"
+  [[params.plugins.css]]
+  URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/jquery-2.1.1.min.js"
+  [[params.plugins.js]]
+  URL = "js/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "js/owl.carousel.min.js"
+  [[params.plugins.js]]
+  URL = "js/jquery.magnific-popup.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
+
+
+###################################### Navigation ######################################
+[menu]
+    
+  [[menu.main]]
+  name = "Order"
+  URL = "order"
+  weight = 3
+  
+  [[menu.main]]
+  name = "Gallery"
+  URL = "gallery"
+  weight = 4
+
+  [[menu.main]]
+  name = "Donations"
+  URL = "donations"
+  weight = 5
+
+  [[menu.main]]
+  name = "FAQ"
+  URL = "faq"
+  weight = 6
+
+########################### Default parameters ##########################
+[params]
+logo = ""
+home = "Home"
+# Meta data
+description = "This is meta description"
+author = "milldr"
+# Google Analitycs
+google_analitycs_id = "TODO"
+# copyright
+copyright = "Copyright 2020 &copy; [millermaskproject](https://github.com/milldr/millermaskproject/) | All right reserved."
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+[deployment]
+order = [".png$", ".jpg$", ".gif$", ".svg$"]
+
+[[deployment.targets]]
+URL = "s3://millermaskproject.com?region=us-west-2"
+
+[[deployment.matchers]]
+# Cache static assets for 20 years. should be good
+pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
+cacheControl = "max-age=630720000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
