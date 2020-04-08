@@ -1,0 +1,87 @@
+# Deploy a resources for static site
+AWSTemplateFormatVersion: 2010-09-09
+Parameters:
+  SiteName:
+    Default: "millermaskproject.com"
+    Type: String
+Mappings:
+  RegionMap:
+    us-west-2:
+      S3hostedzoneID: Z005538517DW7PO9QXUXQ # created by route53 registrar
+Resources:
+  StaticContent:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref SiteName
+      AccessControl: PublicRead
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: 404.html
+  WWWContent:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "www.${ SiteName }"
+      AccessControl: BucketOwnerFullControl
+      WebsiteConfiguration:
+        RedirectAllRequestsTo:
+          HostName: !Ref StaticContent
+  BucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      PolicyDocument:
+        Id: PolicyForStaticSite
+        Effect: Allow
+        Principal: "*"
+        Action: "s3:GetObject"
+        Resource: !Sub "arn:aws:s3:::${ SiteName }/*"
+      Bucket: !Ref StaticContent
+  CloudfrontDistro:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        Origins:
+        - DomainName: !Select [2, !Split ["/", !GetAtt StaticContent.WebsiteURL]]
+          Id: S3Origin
+          CustomOriginConfig:
+            HTTPPort: 80
+            HTTPSPort: 443
+            OriginProtocolPolicy: http-only
+        Enabled: true
+        HttpVersion: 'http2'
+        DefaultRootObject: index.html
+        Aliases:
+          - !Sub "www.${ SiteName }"
+        DefaultCacheBehavior:
+          AllowedMethods:
+          - GET
+          - HEAD
+          Compress: true
+          TargetOriginId: S3Origin
+          ForwardedValues:
+            QueryString: true
+            Cookies:
+              Forward: none
+          ViewerProtocolPolicy: redirect-to-https
+        PriceClass: PriceClass_All
+  Dns:
+    Type: AWS::Route53::RecordSetGroup
+    Properties:
+      HostedZoneName: !Sub "${ SiteName }."
+      Comment: Zone apex alias.
+      RecordSets:
+      - 
+        Name: !Ref SiteName
+        Type: A
+        AliasTarget:
+          HostedZoneId: !FindInMap [ RegionMap, 'us-west-2', S3hostedzoneID]
+          DNSName: !GetAtt CloudfrontDistro.DomainName
+      -
+        Name: !Sub "www.${ SiteName }"
+        Type: CNAME
+        TTL: 900
+        ResourceRecords:
+          - !GetAtt WWWContent.DomainName
+Outputs:
+  WebsiteUrl:
+    Value: !GetAtt StaticContent.WebsiteURL
+    Description: URL for website
