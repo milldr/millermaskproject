@@ -1,0 +1,19 @@
+{{- if .Site.Data.homepage.donations.enable }}
+{{- with .Site.Data.homepage.donations }}
+<section class="donation section bg-opacity" style="background-image: url('{{ .bgImage | absURL }}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-8 text-center mx-auto">
+        <h2 class="subheading text-white">{{ .title | markdownify }}</h2>
+        <p class="text-white">{{ .content | markdownify }}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-main btn-main-sm">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+      </div>
+    </div>
+  </div>
+</section><!-- #call-to-action close -->
+{{- end }}
+{{- end }}

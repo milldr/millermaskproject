@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "blah blah masks good virus bad"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-  image : "images/showcase/showcase-1.JPG"
+  image : "images/mask1.png"
   button: "Order now"
 
 ############################# Feature ############################
@@ -50,7 +50,7 @@ features:
 ############################# promo ############################
 promo:
   enable : true
-  image : "images/showcase/showcase-3.JPG"
+  image : "images/showcase/showcase-3.png"
   title : "Stop the Spread!"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
             nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
@@ -59,12 +59,12 @@ promo:
 
 
 ############################# About Product #######################
-aboutProduct:
+order:
   enable : true
   title : "Meet the Makers"
   items:
     # about product item loop
-    - image : "images/showcase/showcase-1.JPG"
+    - image : "images/showcase/showcase-1.png"
       title : "Nancy"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
             sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
@@ -75,7 +75,7 @@ aboutProduct:
         link : "#"
         
     # about product item loop
-    - image : "images/showcase/showcase-2.JPG"
+    - image : "images/showcase/showcase-2.png"
       title : "Someone else"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
             sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
@@ -93,11 +93,11 @@ gallery:
   # Set the image directory to use as base
   directory : "images/showcase"
   # Set the images to show in the gallery
-  images : ["showcase-1.JPG", "showcase-2.JPG", "showcase-3.JPG", "showcase-4.JPG"]
+  images : ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png"]
 
 
 ################################## call to action ###################
-cta:
+donations:
   enable : true
   # bgImage : "images/call-to-action.jpg"
   title : "Make a Donation!"
@@ -108,11 +108,11 @@ cta:
     link: "http://help.feedingamerica.org/goto/MillerMaskProject"
         
 
-############################## Testimonial ##########################
-testimonials:
+############################## FAQ ##########################
+faq:
   enable : true
   title : "Testimonials, maybe FAQ here"
-  testimonialItem:
+  faqItem:
     - name : "Nancy Miller"
       designation : "Founder"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"

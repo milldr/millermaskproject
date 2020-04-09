@@ -56,7 +56,6 @@ theme = "vex"
 
 ########################### Default parameters ##########################
 [params]
-logo = ""
 home = "Home"
 # Meta data
 description = "This is meta description"

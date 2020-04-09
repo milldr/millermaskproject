@@ -44,7 +44,7 @@ Resources:
     Properties:
       DistributionConfig:
         Origins:
-        - DomainName: !Join [ "", [ !Ref StaticContent, ".s3.amazonaws.com" ] ]
+        - DomainName: !GetAtt StaticContent.DomainName
           Id: S3Origin
           S3OriginConfig: 
             OriginAccessIdentity:
@@ -64,7 +64,7 @@ Resources:
           ForwardedValues:
             QueryString: true
             Cookies:
-              Forward: none
+              Forward: all
           ViewerProtocolPolicy: redirect-to-https
         PriceClass: PriceClass_All
         ViewerCertificate:
@@ -90,7 +90,3 @@ Resources:
         AliasTarget:
           HostedZoneId: !Ref HostedzoneID
           DNSName: !GetAtt CloudfrontDistro.DomainName
-Outputs:
-  S3WebsiteUrl:
-    Value: !GetAtt StaticContent.WebsiteURL
-    Description: S3 URL for website
