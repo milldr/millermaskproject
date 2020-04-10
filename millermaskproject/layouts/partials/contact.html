@@ -1,12 +1,12 @@
 {{ if .Site.Data.homepage.contact.enable }}
 {{ with .Site.Data.homepage.contact }}
-<section class="gallery" id="contact">
+<section class="bg-orange section gallery" id="contact">
   <br><br>
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-8 text-center mx-auto">
-        <h2 class="subheading font-weight-bold mb-10">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
+        <h2 class="text-white subheading font-weight-bold mb-10">{{ .title | markdownify }}</h2>
+        <p class="text-white" >{{ .content | markdownify }}</p>
       </div>
     </div>
   </div>

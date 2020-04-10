@@ -51,7 +51,7 @@ use:
 promo:
   enable : true
   directory: "images/showcase"
-  images : ["showcase-5.png", "showcase-6.png", "showcase-7.png"] 
+  images : ["showcase-5.png", "showcase-6.png"] 
   title : "Stop the Spread!"
   content: "CDC now recommends wearing cloth face coverings in public settings and where social distancing measures are difficult to maintain. This especially contains grocery stores, pharmacies, and other areas of significant community-based transmission. The use of simple cloth face coverings to slow the spread of the virus and help people who may have the virus and do not know it from transmitting it to others."
 
@@ -59,24 +59,28 @@ promo:
 #################################### Gallery ########################
 gallery:
   enable : true
-  title : "Showcase"
+  title : "Gallery"
   # Set the image directory to use as base
   directory : "images/showcase"
   # Set the images to show in the gallery
-  images : ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-8.png", "showcase-9.png"]
+  images : ["showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-8.png", "showcase-9.png"]
 
 diy:
   enable : true
   title : "DIY"
   directory : "images"
+  content: "You don't need to wait for me! Check out one of the videos below for instructions on how to make your own mask."
   videos:
-    - title: "Intermediate sewing skills"
+    - title: "ProperFit Clothing Flu Mask"
+      subtitle: "Intermediate sewing skills"
       link: "https://www.youtube.com/watch?v=N8WSpnVSsRg"
       image: "video-1.png"
-    - title: "Beginner sewing skills"
+    - title: "@ProperFit"
+      subtitle: "Beginner sewing skills"
       link: "https://youtu.be/LDNYSU0AOmw"
       image: "video-2.png"
-    - title: "No sewing skills"
+    - title: "@ProperFit"
+      subtitle: "No sewing skills"
       link: "http://www.wbir.com/video/life/style/heres-how-to-make-a-mask-with-supplies-from-home/51-ad69e907-50ce-4c0e-8c82-0a38042e8693?jwsource=cl"
       image: "video-3.png"
 
