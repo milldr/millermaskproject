@@ -111,3 +111,10 @@ faq:
       answer: "answer answer answer answer answer"
       image: ""
 
+about:
+  enable : true
+  directory: "images/showcase"
+  images : ["showcase-3.png"] 
+  title : "About the Maker"
+  content: "Nancy has volunteered her time to make this masks."
+

@@ -1,0 +1,26 @@
+{{ if .Site.Data.homepage.about.enable }}
+{{ with .Site.Data.homepage.about }}
+<section class="section gallery" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 align-self-center text-center text-md-left">
+        <div class="content">
+          <h2 class="subheading font-weight-bold mb-10">{{ .title | markdownify }}</h2>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      <div class="col-md-6 text-center">
+        <div class="single-gallery-slider">
+          {{- $basePath := relURL .directory }}
+          {{- range .images }}
+          <div class="block">
+            <img class="img-fluid" src="{{ $basePath }}/{{ . }}" alt="">
+          </div>
+          {{- end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
