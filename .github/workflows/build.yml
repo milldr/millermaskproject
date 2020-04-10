@@ -1,0 +1,25 @@
+name: Build
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - '**'
+jobs:
+  validate:
+    runs-on: milldr/static-site-deployer
+    steps:
+      - name: "Validate Cloudformation"
+        run: |
+          cfn_nag_scan --input-path aws/static-site.yml
+  build:
+    runs-on: milldr/amazon-brew
+    steps:
+      - name: "Deploy or update stack"
+        run: |
+          aws cloudformation deploy --template-file aws/static-site.yml --stack-name millermaskproject --capabilities CAPABILITY_NAMED_IAM
+      - name: "Deploy static content to S3 with Hugo"
+        run: |
+          cd ./millermaskproject
+          hugo -D
+          hugo -v deploy --maxDeletes -1
