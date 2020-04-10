@@ -9,7 +9,7 @@ banner:
     enable: true
     label : "Donate Now"
     link: "http://help.feedingamerica.org/goto/MillerMaskProject"
-  emphasis: "**Be safe!**  If you have been gifted a mask, do not try it on until you “cook” it first!  Set it in a 200F oven for 30 minutes. The heat will kill any sneaky virus that may have hitched a ride on the mask."
+  emphasis: "**Be safe!**  Sterilize your mask before its first use and immediately after each use by placing it in a 200F oven for 30 minutes."
 
 ############################# Feature ############################
 use:
