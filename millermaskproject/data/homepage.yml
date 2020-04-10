@@ -69,7 +69,7 @@ diy:
   enable : true
   title : "DIY"
   directory : "images"
-  content: "You don't need to wait for me! Check out one of the videos below for instructions on how to make your own mask."
+  content: "I am overwhelmed with mask requests from my family, friends, and neighbors. Unfortunately I cannot take orders from the general public. The mask pattern I use is from Properfit Clothing. They have an excellent how-to video on their website."
   videos:
     - title: "ProperFit Clothing Flu Mask"
       subtitle: "Intermediate sewing skills"
