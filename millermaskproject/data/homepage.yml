@@ -67,7 +67,7 @@ diy:
   enable : true
   title : "DIY"
   directory : "images"
-  content: "I am overwhelmed with mask requests from my family, friends, and neighbors. Unfortunately I cannot take orders from the general public. The mask pattern I use is from Properfit Clothing. They have an excellent how-to video on their website."
+  content: "The mask pattern I use is from Properfit Clothing. They have an excellent how-to video on their website."
   videos:
     - title: "ProperFit Clothing Flu Mask"
       subtitle: "Intermediate sewing skills"
@@ -95,7 +95,7 @@ donations:
 contact:
   enable: true
   title: "Contact"
-  content: "Not available at this time"
+  content: "If you know me and have my contact information, I would be happy to make a mask for you. I apologize that I cannot take orders from the general public. I am only one person, and each mask takes about an hour for me to make."
 
 faq:
   enable: true
