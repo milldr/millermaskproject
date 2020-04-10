@@ -20,7 +20,7 @@ use:
   leftSide:
     # feature item loop
   - title : "Understand"
-    content : "Wearing a fabric mask will not make you invincible against the coronavirus.  But a it will remind you to not touch your face and block unexpected sneezes."
+    content : "Wearing a fabric mask will not make you invincible against the coronavirus.  But it will remind you to not touch your face and block unexpected sneezes."
     
     # feature item loop
   - title : "Adjust"
@@ -50,7 +50,8 @@ use:
 ############################# promo ############################
 promo:
   enable : true
-  image : "images/showcase/showcase-5.png"
+  directory: "images/showcase"
+  images : ["showcase-5.png", "showcase-6.png", "showcase-7.png"] 
   title : "Stop the Spread!"
   content: "CDC now recommends wearing cloth face coverings in public settings and where social distancing measures are difficult to maintain. This especially contains grocery stores, pharmacies, and other areas of significant community-based transmission. The use of simple cloth face coverings to slow the spread of the virus and help people who may have the virus and do not know it from transmitting it to others."
 
@@ -62,7 +63,7 @@ gallery:
   # Set the image directory to use as base
   directory : "images/showcase"
   # Set the images to show in the gallery
-  images : ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png"]
+  images : ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-8.png", "showcase-9.png"]
 
 diy:
   enable : true

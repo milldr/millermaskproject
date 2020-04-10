@@ -3,9 +3,17 @@ $(document).ready(function () {
   $(".gallery-slider").owlCarousel({
     pagination: true,
     autoPlay: 5000,
-    itemsDesktop: [1500, 4],
+    itemsDesktop: [1500, 3],
     itemsDesktopSmall: [979, 3],
     items: 3
+  });
+
+  $(".single-gallery-slider").owlCarousel({
+    pagination: true,
+    autoPlay: 4000,
+    itemsDesktop: [1500, 1],
+    itemsDesktopSmall: [979, 1],
+    items: 1
   });
 
   // Gallery Popup

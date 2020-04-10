@@ -19,14 +19,6 @@ Resources:
       WebsiteConfiguration:
         IndexDocument: index.html
         ErrorDocument: 404.html
-  WWWContent:
-    Type: AWS::S3::Bucket
-    Properties:
-      BucketName: !Sub "www.${ SiteName }"
-      AccessControl: BucketOwnerFullControl
-      WebsiteConfiguration:
-        RedirectAllRequestsTo:
-          HostName: !Ref StaticContent
   BucketPolicy:
     Type: AWS::S3::BucketPolicy
     Properties:
@@ -72,7 +64,6 @@ Resources:
           SslSupportMethod: sni-only
     DependsOn:
       - StaticContent
-      - WWWContent
       - BucketPolicy
   CloudfrontOriginAccessIdentity:
     Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
