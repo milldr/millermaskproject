@@ -55,15 +55,13 @@ promo:
   title : "Stop the Spread!"
   content: "CDC now recommends wearing cloth face coverings in public settings and where social distancing measures are difficult to maintain. This especially contains grocery stores, pharmacies, and other areas of significant community-based transmission. The use of simple cloth face coverings to slow the spread of the virus and help people who may have the virus and do not know it from transmitting it to others."
 
-
-#################################### Gallery ########################
 gallery:
   enable : true
   title : "Gallery"
   # Set the image directory to use as base
   directory : "images/showcase"
   # Set the images to show in the gallery
-  images : ["showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-8.png", "showcase-9.png"]
+  images : ["showcase-2.png", "showcase-4.png", "showcase-8.png", "showcase-9.png"]
 
 diy:
   enable : true
@@ -84,8 +82,6 @@ diy:
       link: "http://www.wbir.com/video/life/style/heres-how-to-make-a-mask-with-supplies-from-home/51-ad69e907-50ce-4c0e-8c82-0a38042e8693?jwsource=cl"
       image: "video-3.png"
 
-
-################################## Donations ###################
 donations:
   enable : true
   # bgImage : "images/call-to-action.jpg"
@@ -95,10 +91,23 @@ donations:
     enable : true
     label : "Donate Now"
     link: "http://help.feedingamerica.org/goto/MillerMaskProject"
-        
 
-############################## FAQ ##########################
 contact:
   enable: true
   title: "Contact"
   content: "Not available at this time"
+
+faq:
+  enable: true
+  title: "Frequently Asked Questions"
+  items:
+    - question: "question questionquestion question?question question??"
+      answer: "answer answer answer answer answer"
+      image: ""
+    - question: "question questionquestion question?question question??"
+      answer: "answer answer answer answer answer"
+      image: ""
+    - question: "question questionquestion question?question question??"
+      answer: "answer answer answer answer answer"
+      image: ""
+
