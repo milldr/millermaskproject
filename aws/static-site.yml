@@ -35,6 +35,7 @@ Resources:
     Type: AWS::CloudFront::Distribution
     Properties:
       DistributionConfig:
+        Comment: !Sub 'CloudFront Distribution for ${ SiteName }'
         Origins:
         - DomainName: !GetAtt StaticContent.DomainName
           Id: S3Origin
