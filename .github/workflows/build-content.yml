@@ -10,7 +10,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    container: milldr/amazon-brew
+    container: milldr/static-site-deployer
     steps:
       - 
         name: checkout
