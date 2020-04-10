@@ -10,12 +10,18 @@ jobs:
     runs-on: milldr/static-site-deployer
     steps:
       - 
+        name: checkout
+        uses: actions/checkout@master
+      - 
         name: "Validate Cloudformation"
         run: |
           cfn_nag_scan --input-path aws/static-site.yml
   build:
     runs-on: milldr/amazon-brew
     steps:
+      - 
+        name: checkout
+        uses: actions/checkout@master
       - 
         name: "Deploy or update stack"
         run: |
