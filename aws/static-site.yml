@@ -69,7 +69,7 @@ Resources:
     Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
     Properties:
       CloudFrontOriginAccessIdentityConfig:
-        Comment: !Sub 'CloudFront OAI for ${ SiteName}'
+        Comment: !Sub 'CloudFront Origin Access Iden for ${ SiteName }'
   Dns:
     Type: AWS::Route53::RecordSetGroup
     Properties:
