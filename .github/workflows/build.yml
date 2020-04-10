@@ -7,7 +7,8 @@ on:
       - '**'
 jobs:
   validate:
-    runs-on: milldr/static-site-deployer
+    runs-on: ubuntu-latest
+    container: milldr/static-site-deployer
     steps:
       - 
         name: checkout
@@ -17,7 +18,8 @@ jobs:
         run: |
           cfn_nag_scan --input-path aws/static-site.yml
   build:
-    runs-on: milldr/amazon-brew
+    runs-on: ubuntu-latest
+    container: milldr/amazon-brew
     steps:
       - 
         name: checkout
