@@ -36,6 +36,7 @@ h3,
 .h3 {
   font-size: 23px;
   line-height: 25px;
+  margin-top: 10px;
 }
 
 h4,
@@ -382,7 +383,7 @@ a:active {
   padding: 20px;
 }
 
-.gallery .block:hover .gallery-overlay {
+.gallery .block .gallery-overlay:hover {
   -webkit-transform: scale(1);
           transform: scale(1);
   opacity: 1;
@@ -528,3 +529,4 @@ footer p.copyright-text a:hover {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+

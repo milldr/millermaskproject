@@ -33,26 +33,27 @@ theme = "vex"
 
 ###################################### Navigation ######################################
 [menu]
-    
+
   [[menu.main]]
-  name = "Order"
-  URL = "order"
+  name = "How to Use"
+  URL = "use"
   weight = 3
-  
+    
   [[menu.main]]
   name = "Gallery"
   URL = "gallery"
   weight = 4
 
   [[menu.main]]
-  name = "Donations"
-  URL = "donations"
+  name = "DIY"
+  URL = "diy"
   weight = 5
 
   [[menu.main]]
-  name = "FAQ"
-  URL = "faq"
+  name = "Contact"
+  URL = "contact"
   weight = 6
+  
 
 ########################### Default parameters ##########################
 [params]

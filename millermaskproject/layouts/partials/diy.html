@@ -1,0 +1,33 @@
+{{ if .Site.Data.homepage.diy.enable }}
+{{ with .Site.Data.homepage.diy }}
+<section class="gallery" id="diy">
+<br><br>
+<br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="heading">
+          <h2>{{ .title | markdownify }}</h2>
+        </div>
+
+        <div class="gallery-slider">
+          {{- $basePath := relURL .directory }}
+          {{- range .videos }}
+          <div class="block">
+            <div class="gallery-overlay">
+              <a href="{{ .link }}" class="gallery-popup">
+                <i class="tf-ion-ios-videocam"></i>
+              </a>
+            </div>
+            <img class="img-fluid" src="{{ $basePath }}/{{ .image }}" alt="">
+            <h3 class="text-center">{{ .title }}</h3>
+          </div>
+          {{- end }}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

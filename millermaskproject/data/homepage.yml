@@ -1,89 +1,58 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "blah blah masks good virus bad"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+  title : "The Miller Mask Project"
+  subtitle: "Website under construction"
+  content : "We make masks and give them away. If the recipients (or anyone for that matter) are impressed with our efforts, we encourage them to make a donation to Feeding America through this fundraising link:"
   image : "images/mask1.png"
-  button: "Order now"
+  button:
+    enable: true
+    label : "Donate Now"
+    link: "http://help.feedingamerica.org/goto/MillerMaskProject"
+  emphasis: "**Be safe!**  If you have been gifted a mask, do not try it on until you “cook” it first!  Set it in a 200F oven for 30 minutes. The heat will kill any sneaky virus that may have hitched a ride on the mask."
 
 ############################# Feature ############################
-features:
+use:
   enable : true
-  title : "why"
+  title : "How to Use"
 
   # feature at the left of the image
   leftSide:
     # feature item loop
-  - icon : "tf-ion-ios-alarm-outline"
-    title : "Reason to wear 1 ... these images will be different"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  - title : "Understand"
+    content : "Wearing a fabric mask will not make you invincible against the coronavirus.  But a it will remind you to not touch your face and block unexpected sneezes."
     
     # feature item loop
-  - icon : "tf-ion-ios-bell-outline"
-    title : "Reason to wear 2"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  - title : "Adjust"
+    content : "Each mask will need adjusting. Position it on your nose and form the metal nose piece until it is comfortable. Pull the elastic behind your head until it is snug. You might need to add another knot."
     
     # feature item loop
-  - icon : "tf-ion-ios-cart-outline"
-    title : "Reason to wear 2"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  - title : "No Sharing"
+    content : "Write your name on the inside of the mask with a sharpie. Do not share masks, even after cleaning and sterilizing."
 
 
   # feature at the right of the image
   rightSide:
     # feature item loop
-  - icon : "tf-ion-ios-alarm-outline"
-    title : "Reason to wear 2"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  - title : "Sterilize"
+    content : "After you wear the mask outside, even it for a very short length of time, assume the front of it is contaminated. Remove it carefully. Do not set the mask on a clean surface.  Re-sterilize the mask by putting it directly into a 200F oven for 30 min.  Wash hands thoroughly. "
 
     # feature item loop
-  - icon : "tf-ion-ios-bell-outline"
-    title : "Reason to wear 2"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  - title : "Wash"
+    content : "Wash whenever desired.  Either soak in hot soapy water or put it in a lingerie bag in your clothes washer. Dry the mask on either a dryer shelf or in a 200F oven.
+"
 
     # feature item loop
-  - icon : "tf-ion-ios-cart-outline"
-    title : "Reason to wear 2"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  - title : "Don’t tumble dry"
+    content : "The nose wire will pop out and the elastic will become entangled with your other clothes."
 
 
 ############################# promo ############################
 promo:
   enable : true
-  image : "images/showcase/showcase-3.png"
+  image : "images/showcase/showcase-5.png"
   title : "Stop the Spread!"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
-
-
-############################# About Product #######################
-order:
-  enable : true
-  title : "Meet the Makers"
-  items:
-    # about product item loop
-    - image : "images/showcase/showcase-1.png"
-      title : "Nancy"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
-      button:
-        enable : true
-        label : "Place an Order"
-        link : "#"
-        
-    # about product item loop
-    - image : "images/showcase/showcase-2.png"
-      title : "Someone else"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
-      button:
-        enable : true
-        label : "Place an Order"
-        link : "#"
+  content: "CDC now recommends wearing cloth face coverings in public settings and where social distancing measures are difficult to maintain. This especially contains grocery stores, pharmacies, and other areas of significant community-based transmission. The use of simple cloth face coverings to slow the spread of the virus and help people who may have the virus and do not know it from transmitting it to others."
 
 
 #################################### Gallery ########################
@@ -95,13 +64,28 @@ gallery:
   # Set the images to show in the gallery
   images : ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png"]
 
+diy:
+  enable : true
+  title : "DIY"
+  directory : "images"
+  videos:
+    - title: "Intermediate sewing skills"
+      link: "https://www.youtube.com/watch?v=N8WSpnVSsRg"
+      image: "video-1.png"
+    - title: "Beginner sewing skills"
+      link: "https://youtu.be/LDNYSU0AOmw"
+      image: "video-2.png"
+    - title: "No sewing skills"
+      link: "http://www.wbir.com/video/life/style/heres-how-to-make-a-mask-with-supplies-from-home/51-ad69e907-50ce-4c0e-8c82-0a38042e8693?jwsource=cl"
+      image: "video-3.png"
 
-################################## call to action ###################
+
+################################## Donations ###################
 donations:
   enable : true
   # bgImage : "images/call-to-action.jpg"
   title : "Make a Donation!"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  content : "Our masks are entirely self-funded, and we do not accept payment. Instead, please consider donating to Feeding America."
   button:
     enable : true
     label : "Donate Now"
@@ -109,19 +93,7 @@ donations:
         
 
 ############################## FAQ ##########################
-faq:
-  enable : true
-  title : "Testimonials, maybe FAQ here"
-  faqItem:
-    - name : "Nancy Miller"
-      designation : "Founder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-      
-    - name : "Tim"
-      designation : "Helper"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-      
-    - name : "Another Person"
-      designation : "Friend"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-
+contact:
+  enable: true
+  title: "Contact"
+  content: "Not available at this time"

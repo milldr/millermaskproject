@@ -4,7 +4,8 @@ $(document).ready(function () {
     pagination: true,
     autoPlay: 5000,
     itemsDesktop: [1500, 4],
-    itemsDesktopSmall: [979, 3]
+    itemsDesktopSmall: [979, 3],
+    items: 3
   });
 
   // Gallery Popup
