@@ -26,6 +26,6 @@ jobs:
       - 
         name: "Deploy static content to S3 with Hugo"
         run: |  
-          cd ./millermaskproject/millermaskproject
+          cd ./millermaskproject
           hugo -D
           hugo -v deploy
