@@ -25,7 +25,7 @@ jobs:
           aws-region: us-west-2
       - 
         name: "Deploy static content to S3 with Hugo"
-        run: |
-          cd ./millermaskproject
+        run: |  
+          cd ./millermaskproject/millermaskproject
           hugo -D
-          hugo -v deploy --maxDeletes -1
+          hugo -v deploy
