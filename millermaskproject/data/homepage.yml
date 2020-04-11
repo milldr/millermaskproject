@@ -93,33 +93,37 @@ faq:
   title: "Frequently Asked Questions"
   items:
     - question: "How do I wash my mask, and how often?"
-      answer: "Wash your mask whenever it is convenient or if it gets smelly. Either hand wash it in hot soapy water or put it in a lingerie bag in your clothes washer."
+      answers: 
+        - "Wash your mask whenever it is convenient or if it gets smelly. Either hand wash it in hot soapy water or put it in a lingerie bag in your clothes washer."
       image: ""
     - question: "Why is the lingerie bag so important?  Why can’t I throw it in with my regular laundry?"
-      answer: "If the mask is thrown in your washer and dryer along with a regular wash, your clothes will become entangled in the elastic and the nose wire in the mask will eventually pop out. This is why I recommend washing your mask in a lingerie bag and not tumbling it dry."
+      answers: 
+        - "If the mask is thrown in your washer and dryer along with a regular wash, your clothes will become entangled in the elastic and the nose wire in the mask will eventually pop out. This is why I recommend washing your mask in a lingerie bag and not tumbling it dry."
       image: ""
     - question: "Can I hang it to dry?"
-      answer: "Yes, you can hang it to dry, but the mask might not be completely virus free. The best way to kill any lingering virus particles to heat the mask to at least 170 for 30 minutes. Most dryers, on high heat, get to 170-180F. So that is why I recommend putting it in your oven at 200F for 30 minutes. No virus can survive that heat."
+      answers: 
+        - "Yes, you can hang it to dry, but the mask might not be completely virus free. The best way to kill any lingering virus particles to heat the mask to at least 170 for 30 minutes. Most dryers, on high heat, get to 170-180F. So that is why I recommend putting it in your oven at 200F for 30 minutes. No virus can survive that heat."
       image: ""
     - question: "I can’t breathe through the mask! My breathing sucks from around the edges. Is that ok?"
-      answer: "Sorry, that was a fabric selection error on my part. You must have one of the masks that I made with a super high thread count nonallergenic pillow case cover. I had thought the material would be perfect, but apparently it is just a bit too impermeable. It would be better if your breathing is filtered through the material. To fix this, cut a hole (about 2 x 3”) in the center liner panel.  Find a piece of 100% cotton - an old dishtowel or pillowcase - and stitch it back over the hole."
+      answers: 
+        - "Sorry, that was a fabric selection error on my part. You must have one of the masks that I made with a super high thread count nonallergenic pillow case cover. I had thought the material would be perfect, but apparently it is just a bit too impermeable. It would be better if your breathing is filtered through the material. To fix this, cut a hole (about 2 x 3”) in the center liner panel.  Find a piece of 100% cotton - an old dishtowel or pillowcase - and stitch it back over the hole."
       image: ""
     - question: "The nose wire is too painful! What can I do?"
-      answer: "If your mask is one of my earlier versions, I was using 12 gauge wire which is relatively thick. Apparently, this size wire is uncomfortable for a lot of people, so I apologize. I have since switched to paper clips (when straightened are 6” long). I suggest changing out your wire.  Along the top binding, snip the thread only (being careful to not snip the fabric), until you can remove the wire.  Replace it with a straightened paper clip and stitch it shut."
+      answers: 
+        - "If your mask is one of my earlier versions, I was using 12 gauge wire which is relatively thick. Apparently, this size wire is uncomfortable for a lot of people, so I apologize. I have since switched to paper clips (when straightened are 6” long). I suggest changing out your wire.  Along the top binding, snip the thread only (being careful to not snip the fabric), until you can remove the wire.  Replace it with a straightened paper clip and stitch it shut."
       image: ""  
     - question: "How much should I donate to this FeedingAmerica fundraiser?"
-      answer: "The mission of the Miller Mask Project is to fight the coronavirus on two fronts: covering people’s faces and raising money to help feed the most vulnerable Americans. This project is entirely self-funded. I am a one-woman operation, and I have been cutting and sewing for over 10 hours a day, 7 days a week since March 21st. The masks I make are more involved than the standard accordion masks, each one taking me over an hour to make. I am going the extra mile, and I hope you will too.</br >   
-</br >
-Suggested guidelines:</br >
-</br >
-You are out of work and can’t pay your rent: $0</br >
-You are an essential worker and have been under appreciated and underpaid until this crisis: $0</br >
-Your work has been cut back, but you have a full refrigerator: $20/mask</br >
-You have been spending over 5 hours a day on FB or watching Netflix: $50/mask</br >
-You did not cancel your spring break plans: $100/mask</br >
-Your business is booming and you can’t believe your good luck: $200/mask</br >
-You are Gov. DeWine, Dr. Acton, Dr. Fauci, or their immediate families: $0/mask</br >
-You are Donald Trump: Your entire net worth plus your resignation.</br >"
+      answers:
+        - "**Contribute what you can:**"
+      answerlist: 
+        - "You are out of work and can’t pay your rent: $0"
+        - "You are an essential worker and have been under appreciated and underpaid until this crisis: $0"
+        - "Your work has been cut back, but you have a full refrigerator: $20/mask"
+        - "You have been spending over 5 hours a day on FB or watching Netflix: $50/mask"
+        - "You did not cancel your spring break plans: $100/mask"
+        - "Your business is booming and you can’t believe your good luck: $200/mask"
+        - "You are Gov. DeWine, Dr. Acton, Dr. Fauci, or their immediate families: $0/mask"
+        - "You are Donald Trump: Your entire net worth plus your resignation."
       image: ""  
       
 about:
@@ -127,5 +131,4 @@ about:
   directory: "images/showcase"
   images : ["showcase-3.png"] 
   title : "About the Maker"
-  content: "Nancy has volunteered her time to make this masks."
-
+  content: "Nancy has volunteered her time to make this masks. The mission of the Miller Mask Project is to fight the coronavirus on two fronts: covering people’s faces and raising money to help feed the most vulnerable Americans. This project is entirely self-funded. I am a one-woman operation, and I have been cutting and sewing for over 10 hours a day, 7 days a week since March 21st. The masks I make are more involved than the standard accordion masks, each one taking me over an hour to make. I am going the extra mile, and I hope you will too."

@@ -431,7 +431,7 @@ a:active {
     service start
 --*/
 .faq .faq-block {
-  padding: 0 10px;
+  padding: 20px 10px;
 }
 
 .faq .faq-block i {
@@ -443,12 +443,15 @@ a:active {
 
 .faq .faq-block p {
   font-family: "Droid Serif", serif;
-  font-size: 14px;
+  color: #777;
+}
+.faq .faq-block li {
+  font-family: "Droid Serif", serif;
   color: #777;
 }
 
 .faq .faq-block .author-details {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .faq .faq-block .author-details img {
@@ -460,6 +463,21 @@ a:active {
   font-weight: 700;
   font-size: 20px;
   margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.answer {
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.subanswer {
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: justify;
 }
 
 /*--
