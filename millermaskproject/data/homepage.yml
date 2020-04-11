@@ -19,17 +19,12 @@ use:
   # feature at the left of the image
   leftSide:
     # feature item loop
-  - title : "Understand"
-    content : "Wearing a fabric mask will not make you invincible against the coronavirus. But it will remind you to not touch your face, and it will block unexpected sneezes."
-    
-    # feature item loop
   - title : "Adjust"
     content : "Each mask will need adjusting. Position it on your nose and form the metal nose piece until it is comfortable. Pull the elastic behind your head until it is snug. You might need to add another knot."
     
     # feature item loop
   - title : "No Sharing"
     content : "Write your name on the inside of your mask with a sharpie. Do not share masks, even after cleaning and sterilizing."
-
 
   # feature at the right of the image
   rightSide:
@@ -39,12 +34,7 @@ use:
 
     # feature item loop
   - title : "Wash"
-    content : "Wash whenever desired. Either soak in hot soapy water or put it in a lingerie bag in your clothes washer. Dry the mask on either a dryer shelf or in a 200F oven.
-"
-
-    # feature item loop
-  - title : "Don’t tumble dry"
-    content : "The nose wire will pop out and the elastic will become entangled with your other clothes."
+    content : "Wash whenever desired. Either soak in hot soapy water or put it in a lingerie bag in your clothes washer. Dry the mask on either a dryer shelf or in a 200F oven. Don't tumble dry. The nose wire will pop out and the elastic will become entangled with your other clothes."
 
 
 ############################# promo ############################
@@ -52,8 +42,8 @@ promo:
   enable : true
   directory: "images/showcase"
   images : ["showcase-5.png", "showcase-6.png"] 
-  title : "Stop the Spread!"
-  content: "CDC now recommends wearing cloth face coverings in public settings and where social distancing measures are difficult to maintain. This especially contains grocery stores, pharmacies, and other areas of significant community-based transmission. The use of simple cloth face coverings to slow the spread of the virus and help people who may have the virus and do not know it from transmitting it to others."
+  title : "Why fabric masks work"
+  content: "Wearing a fabric mask will not make you invincible against the coronavirus. But it will remind you to not touch your face, and it will block unexpected sneezes."
 
 gallery:
   enable : true
