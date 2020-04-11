@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "Miller Mask Project"
   subtitle: "Please note: This website under construction"
-  content : "I make masks and give them away. I do not accept payment. Instead, I hope you will consider making a donation to Feeding America. Let's beat this virus together!"
+  content : "I make masks and give them away. I do not accept payment. Instead, I hope you will consider making a donation to Feeding America. Let's beat this virus together!</br >I am currently making maks following a pattern from Properfit Clothng. Original Mask designs are in development."
   image : "images/mask1.png"
   button:
     enable: true
