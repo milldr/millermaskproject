@@ -101,14 +101,14 @@ faq:
   enable: true
   title: "Frequently Asked Questions"
   items:
-    - question: "question questionquestion question?question question??"
-      answer: "answer answer answer answer answer"
+    - question: "How do I wash my mask, and how often?"
+      answer: "Wash your mask whenever it is convenient or if it gets smelly. Either hand wash it in hot soapy water or put it in a lingerie bag in your clothes washer."
       image: ""
-    - question: "question questionquestion question?question question??"
-      answer: "answer answer answer answer answer"
+    - question: "Why is the lingerie bag so important?  Why can’t I throw it in with my regular laundry?"
+      answer: "If the mask is thrown in your washer and dryer along with a regular wash, your clothes will become entangled in the elastic and the nose wire in the mask will eventually pop out. This is why I recommend washing your mask in a lingerie bag and not tumbling it dry. "
       image: ""
-    - question: "question questionquestion question?question question??"
-      answer: "answer answer answer answer answer"
+    - question: "Can I hang it to dry?"
+      answer: "Yes, you can hang it to dry, but the mask might not be completely virus free. The best way to kill any lingering virus particles to heat the mask to at least 170 for 30 minutes. Most dryers, on high heat, get to 170-180F. So that is why I recommend putting it in your oven at 200F for 30 minutes. No virus can survive that heat."
       image: ""
 
 about:
