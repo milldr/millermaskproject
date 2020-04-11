@@ -24,8 +24,8 @@ use:
     content : "Each mask will need adjusting. Position it on your nose and form the metal nose piece until it is comfortable. Pull the elastic behind your head until it is snug. You might need to add another knot."
     
     # feature item loop
-  - title : "No Sharing"
-    content : "Write your name on the inside of your mask with a sharpie. Do not share masks, even after cleaning and sterilizing."
+  - title : "Wash"
+    content : "Wash whenever desired. Either soak in hot soapy water or put it in a lingerie bag in your clothes washer. Dry the mask on either a dryer shelf or in a 200F oven. Don't tumble dry. The nose wire will pop out and the elastic will become entangled with your other clothes."
 
   # feature at the right of the image
   rightSide:
@@ -34,10 +34,10 @@ use:
     content : "After you wear the mask outside, even it for a very short length of time, assume the front of it is contaminated. Remove it carefully. Do not set the mask on a clean surface.  Re-sterilize the mask by putting it directly into a 200F oven for 30 min.  Wash hands thoroughly. "
 
     # feature item loop
-  - title : "Wash"
-    content : "Wash whenever desired. Either soak in hot soapy water or put it in a lingerie bag in your clothes washer. Dry the mask on either a dryer shelf or in a 200F oven. Don't tumble dry. The nose wire will pop out and the elastic will become entangled with your other clothes."
+  - title : "No Sharing"
+    content : "Write your name on the inside of your mask with a sharpie. Do not share masks, even after cleaning and sterilizing."
 
-
+  
 ############################# promo ############################
 promo:
   enable : true
