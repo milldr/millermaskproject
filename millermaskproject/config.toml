@@ -1,5 +1,5 @@
 baseURL = "https://millermaskproject.com/"
-languageCode = "en"
+languageCode = "en-us"
 title = "millermaskproject"
 theme = "vex"
 
