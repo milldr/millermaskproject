@@ -61,7 +61,7 @@ gallery:
   # Set the image directory to use as base
   directory : "images/showcase"
   # Set the images to show in the gallery
-  images : ["showcase-2.png", "showcase-4.png", "showcase-8.png", "showcase-9.png"]
+  images : ["showcase-2.png", "showcase-4.png", "showcase-8.png", "showcase-9.png", "showcase-10.png", "showcase-11.png", "showcase-12.png"]
 
 diy:
   enable : true
