@@ -28,4 +28,4 @@ jobs:
         run: |  
           cd ./millermaskproject
           hugo -D
-          hugo -v deploy
+          hugo -v deploy --maxDeletes 1000
