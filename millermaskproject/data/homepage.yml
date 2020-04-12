@@ -2,8 +2,8 @@
 banner:
   enable : true
   title : "Miller Mask Project"
-  subtitle: "Please note: This website under construction"
-  content : "Together, we can do it! The Miller Mask Project is fighting the coronavirus on two fronts: Giving away fabric masks and encouraging donations to Feeding America. The masks you see on this site were made from a Properfit Clothing pattern. Original Miller Mask designs are in the works. I am going the extra mile, I hope you will too. Nancy Miller."
+  subtitle: "Together, we can do it!"
+  content : "The Miller Mask Project is fighting the coronavirus on two fronts: Giving away fabric masks and encouraging donations to Feeding America. The masks you see on this site were made from a Properfit Clothing pattern. Original Miller Mask designs are in the works. I am going the extra mile, I hope you will too. Nancy Miller. (Website under construction, errors to be expected.)"
   image : "images/mask2.png"
   button:
     enable: true
