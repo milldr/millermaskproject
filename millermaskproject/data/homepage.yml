@@ -75,7 +75,7 @@ diy:
 donations:
   enable : true
   # bgImage : "images/call-to-action.jpg"
-  title : "Ohio Gov. Mike DeWine, March 21, 2020:"
+  title : "Ohio Gov. Mike DeWine, 3/21/2020:"
   content : "Each night when I go to bed I ask myself if I've done everything I could to defeat this enemy. I would ask all of you to ask yourselves the same thing - are you doing everything you can to stop this?"
   button:
     enable : true
