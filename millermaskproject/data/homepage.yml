@@ -57,7 +57,7 @@ diy:
   enable : true
   title : "DIY"
   directory : "images"
-  content: "The mask pattern I use is from Properfit Clothing. They have an excellent how-to video on their website."
+  content: ""
   videos:
     - title: "ProperFit Clothing Flu Mask"
       subtitle: "Intermediate sewing skills"
@@ -75,8 +75,8 @@ diy:
 donations:
   enable : true
   # bgImage : "images/call-to-action.jpg"
-  title : "Make a Donation!"
-  content : "My masks are entirely self-funded, and I do not accept payment. Instead, please consider donating to Feeding America."
+  title : "Ohio Gov. Mike DeWine, March 21, 2020:"
+  content : "Each night when I go to bed I ask myself if I've done everything I could to defeat this enemy. I would ask all of you to ask yourselves the same thing - are you doing everything you can to stop this?"
   button:
     enable : true
     label : "Donate Now"
