@@ -113,10 +113,11 @@ faq:
       image: ""  
     - question: "How much should I donate to this FeedingAmerica fundraiser?"
       answers:
-        - "** No contribution is too large or too small **"
+        - "** General guideleines only, no contribution is too large or too small: **"
       answerlist: 
         - "You are out of work and can’t pay your rent: $0"
         - "You are an essential worker and have been under appreciated and underpaid until this crisis: $0"
+        - "You are over 75 years old: $0"
         - "Your work has been cut back, but you have a full refrigerator: $25/mask"
         - "You have been spending over 5 hours a day on FB or watching Netflix: $50/mask"
         - "You did not cancel your spring break plans despite the warnings: $100/mask"
