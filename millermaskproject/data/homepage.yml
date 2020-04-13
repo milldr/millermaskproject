@@ -7,7 +7,7 @@ banner:
   image : "images/mask2.png"
   button:
     enable: true
-    label : "Donate Now"
+    label : "Donate to Feeding America"
     link: "http://help.feedingamerica.org/goto/MillerMaskProject"
   emphasis: "**Be safe!**  Sterilize your mask before its first use and immediately after each use by placing it in a 200F oven for 30 minutes."
 
@@ -79,7 +79,7 @@ donations:
   content : "\"Each night when I go to bed I ask myself if I've done everything I could to defeat this enemy. I would ask all of you to ask yourselves the same thing - are you doing everything you can to stop this?\""
   button:
     enable : true
-    label : "Donate Now"
+    label : "Donate to Feeding America"
     link: "http://help.feedingamerica.org/goto/MillerMaskProject"
 
 contact:
