@@ -542,8 +542,16 @@ footer p.copyright-text a {
   color: #282828;
 }
 
-footer p.copyright-text a:hover {
-  text-decoration: none;
+footer p.footer-note-text {
+  font-weight: 300;
+  font-size: 12px;
+  color: #888;
+  letter-spacing: 1px;
+  margin-top: 0px;
+}
+
+footer p.footer-note-text a {
+  color: #282828;
 }
 
 /*# sourceMappingURL=maps/style.css.map */

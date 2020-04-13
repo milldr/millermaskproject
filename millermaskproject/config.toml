@@ -74,7 +74,8 @@ author = "milldr"
 # Google Analitycs
 google_analitycs_id = "TODO"
 # copyright
-copyright = "[@milldr](https://github.com/milldr) | Copyright 2020 &copy; [millermaskproject](https://github.com/milldr/millermaskproject/) | All right reserved."
+copyright = "Created by [@milldr](https://github.com/milldr) | Copyright 2020 &copy; [millermaskproject](https://github.com/milldr/millermaskproject/) | All right reserved."
+footerNote = "Note from the developer: If you like this site, please let me know! I'd be happy to make one for you too. Email me at [millermaskproject@gmail.com](mailto:millermaskproject@gmail.com)"
 
 # Preloader
 [params.preloader]
