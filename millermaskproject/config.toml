@@ -45,23 +45,23 @@ theme = "vex"
   weight = 4
 
   [[menu.main]]
+  name = "Donate"
+  URL = "donate"
+  weight = 5
+  
+  [[menu.main]]
   name = "FAQ"
   URL = "faq"
-  weight = 5
+  weight = 6
 
   [[menu.main]]
-  name = "DIY"
-  URL = "diy"
-  weight = 6
+  name = "Videos"
+  URL = "videos"
+  weight = 7
 
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 7
-
-  [[menu.main]]
-  name = "About"
-  URL = "about"
   weight = 8
   
 
@@ -69,12 +69,12 @@ theme = "vex"
 [params]
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "information about the covid relief mask project"
 author = "milldr"
 # Google Analitycs
 google_analitycs_id = "TODO"
 # copyright
-copyright = "Copyright 2020 &copy; [millermaskproject](https://github.com/milldr/millermaskproject/) | All right reserved."
+copyright = "[@milldr](https://github.com/milldr) | Copyright 2020 &copy; [millermaskproject](https://github.com/milldr/millermaskproject/) | All right reserved."
 
 # Preloader
 [params.preloader]

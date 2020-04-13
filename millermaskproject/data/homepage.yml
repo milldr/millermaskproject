@@ -55,7 +55,7 @@ gallery:
 
 diy:
   enable : true
-  title : "DIY"
+  title : "Videos"
   directory : "images"
   content: ""
   videos:
@@ -113,7 +113,7 @@ faq:
       image: ""  
     - question: "How much should I donate to this FeedingAmerica fundraiser?"
       answers:
-        - "** Very loose guideleines only, no contribution is too large or too small: **"
+        - "Very loose guidelines only, no contribution is too large or too small:"
       answerlist: 
         - "You are out of work and can’t pay your rent, you are an essential worker and have been under appreciated and underpaid until this crisis, or you are over 75 years old: $0"
         - "Your work has been cut back, the budget is tight, but you are not worried about where your next meal is coming from: $25/mask"
@@ -123,7 +123,7 @@ faq:
       image: ""  
       
 about:
-  enable : true
+  enable : false
   directory: "images/showcase"
   images : ["showcase-3.png"] 
   title : "Message from the Maker"
