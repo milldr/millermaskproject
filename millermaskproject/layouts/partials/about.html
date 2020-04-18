@@ -6,7 +6,9 @@
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
           <h2 class="subheading font-weight-bold mb-10">{{ .title | markdownify }}</h2>
-          <p>{{ .content | markdownify }}</p>
+          {{ range .content }}
+          <p>{{ . | markdownify }}</p>
+          {{ end }
         </div>
       </div>
       <div class="col-md-6 text-center">

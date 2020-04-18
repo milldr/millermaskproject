@@ -133,4 +133,6 @@ about:
   directory: "images/showcase"
   images : ["showcase-3.png"] 
   title : "Message from the Maker"
-  content: "\"The mission of the Miller Mask Project is to fight the coronavirus on two fronts: covering people’s faces and raising money to help feed the most vulnerable Americans. This project is entirely self-funded. I am a one-woman operation, and I have been cutting and sewing for over 10 hours a day, 7 days a week since March 21st. The masks I make are more involved than the standard accordion masks, each one taking me over an hour to make. I am going the extra mile, and I hope you will too.\" -- Nancy"
+  content:
+    - "\"The mission of the Miller Mask Project is to fight the coronavirus on two fronts: covering people’s faces and raising money to help feed the most vulnerable Americans. This project is entirely self-funded. I am a one-woman operation, and I have been cutting and sewing for over 10 hours a day, 7 days a week since March 21st. The masks I make are more involved than the standard accordion masks, each one taking me over an hour to make. I am going the extra mile, and I hope you will too.\""
+    - "-- Nancy"
