@@ -1,0 +1,22 @@
+{{- if .Site.Data.homepage.masks.enable }}
+{{- with .Site.Data.homepage.masks }}
+<section class="bg-orange section" id="masks">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="text-white font-weight-bold mb-10">{{ .title | markdownify }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .types }}
+      <div class="col-md-4 text-center">
+        <img class="img-fluid" src="{{ .image }}" alt="">
+        <br/><br/>
+        <h4 class="text-white font-weight-bold mb-2">{{ .maskType | markdownify }}</h4>
+      </div>
+      {{ end }}
+    </div>
+  </div><!-- .container close -->
+</section>
+{{- end }}
+{{- end }}

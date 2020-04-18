@@ -40,6 +40,11 @@ theme = "vex"
   weight = 3
 
   [[menu.main]]
+  name = "Masks"
+  URL = "masks"
+  weight = 4
+
+  [[menu.main]]
   name = "Donate"
   URL = "donate"
   weight = 5

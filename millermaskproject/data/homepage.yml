@@ -45,7 +45,7 @@ use:
   
 ############################# promo ############################
 promo:
-  enable : true
+  enable : false
   directory: "images/showcase"
   images : ["showcase-5.png", "showcase-6.png"] 
   title : "Why fabric masks work"
@@ -55,9 +55,10 @@ gallery:
   enable : true
   title : "Gallery"
   # Set the image directory to use as base
-  directory : "images/showcase"
+  directory: "images/showcase"
   # Set the images to show in the gallery
-  images : ["showcase-2.png", "showcase-4.png", "showcase-8.png", "showcase-11.png", "showcase-10.png", "showcase-9.png", "showcase-12.png", "showcase-13.png", "showcase-14.png", "showcase-15.png", "showcase-17.png", "showcase-18.png"]
+  images: ["showcase-2.png", "showcase-4.png", "showcase-8.png", "showcase-11.png", "showcase-10.png", "showcase-9.png", "showcase-12.png", "showcase-13.png", "showcase-14.png", "showcase-15.png", "showcase-17.png", "showcase-18.png"]
+  landscapeImages: ["showcase-5.png", "showcase-6.png"] 
 
 diy:
   enable : true
@@ -138,3 +139,19 @@ about:
   content:
     - "\"The mission of the Miller Mask Project is to fight the coronavirus on two fronts: covering people’s faces and raising money to help feed the most vulnerable Americans. This project is entirely self-funded. I am a one-woman operation, and I have been cutting and sewing for over 10 hours a day, 7 days a week since March 21st. The masks I make are more involved than the standard accordion masks, each one taking me over an hour to make. I am going the extra mile, and I hope you will too.\""
     - "-- Nancy"
+
+masks:
+  enable: true
+  title: "Mask Designs"
+  types:
+    - maskType: "Accordion Mask"
+      image: "images/showcase/showcase-5.png"
+      url: "accordionmask"
+    - maskType: "ProperFit Mask"
+      image: "images/showcase/showcase-5.png"
+      url: "properfitmask"
+    - maskType: "Miller Mask Design"
+      image: "images/showcase/showcase-5.png"
+      url: "millermaskdesign"
+
+
