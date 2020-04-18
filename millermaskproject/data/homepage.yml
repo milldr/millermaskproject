@@ -91,7 +91,9 @@ donations:
 contact:
   enable: true
   title: "Contact"
-  content: "If you know me and have my contact information, I would be happy to make a mask for you. I apologize that I cannot take orders from the general public. I am only one person, and each mask takes about an hour for me to make."
+  content: 
+    - "If you know me and have my contact information, I would be happy to make a mask for you. I apologize that I cannot take orders from the general public."
+    - "I am only one person, and each mask takes about an hour for me to make."
 
 faq:
   enable: true

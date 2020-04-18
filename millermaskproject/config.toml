@@ -38,11 +38,6 @@ theme = "vex"
   name = "How to Use"
   URL = "use"
   weight = 3
-    
-  [[menu.main]]
-  name = "Gallery"
-  URL = "gallery"
-  weight = 4
 
   [[menu.main]]
   name = "Donate"

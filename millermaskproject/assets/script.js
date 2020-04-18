@@ -5,6 +5,14 @@ $(document).ready(function () {
     autoPlay: 5000,
     itemsDesktop: [1500, 3],
     itemsDesktopSmall: [979, 3],
+    items: 5
+  });
+
+  $(".video-slider").owlCarousel({
+    pagination: true,
+    autoPlay: 5000,
+    itemsDesktop: [1500, 3],
+    itemsDesktopSmall: [979, 3],
     items: 3
   });
 
