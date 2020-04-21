@@ -142,15 +142,15 @@ about:
 
 masks:
   enable: true
-  title: "Mask Designs"
+  title: "Masks"
   types:
-    - maskType: "ProperFit Mask"
+    - maskType: "ProperFit Design, random fabrics"
       image: "images/showcase/properfit-1.png"
       url: "properfitmask"
-    - maskType: "Special Edition Fabrics"
+    - maskType: "Properfit Design, Special Edition Fabrics"
       image: "images/showcase/special-edition-1.png"
       url: "millermaskdesign"
-    - maskType: "Accordion Mask"
+    - maskType: "Accordion Design"
       image: "images/showcase/accordion-2.png"
       url: "accordionmask"
 
