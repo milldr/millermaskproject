@@ -4,12 +4,13 @@ banner:
   title : "Miller Mask Project"
   subtitle: "Together, we can do it!"
   content: 
-    - "Miller Mask Project is fighting the coronavirus by sewing high-quality, well-designed fabric face masks in exchange for donations to Hunger Relief organizations such as Feeding America. This project is entirely self-funded and no payments other than donations are accepted."
-    - "The masks you see on this site were made from a Properfit Clothing pattern. Each one is made to order, as the fabric selections change constantly.  The suggested minimum donation for a Properfit mask is $25 each."
-    - "I am also offering more simple accordion masks made by my cousin Joe Van Ginkel of Van Ginkel Athletic Manufacturing Company of Des Moines, Iowa. The suggested minimum donation for an accordion mask is $10 each."
-    - "Can I sew a mask for you?  If you know me, contact me and I will let you know how far out I am scheduling. I apologize that I cannot open up orders to the general public at this time."
-    - "Nancy Miller"
-    - "(Website under construction, errors to be expected. And yes, I am aware this paragraph is painfully long.)"
+    - "The Miller Mask Project is my effort to fight the coronavirus by sewing high-quality, well-designed fabric face masks in exchange for your donation to Feeding America. I make each mask to order. I accept no payment other than donation. - Nancy Miller"
+    - "Suggested Donations:"
+    - "ProperFit Mask - $25 each"
+    - "ProperFit Mask, Special Edition Fabrics - $35 each"
+    - "Accordion Mask* - $10 each"
+    - "*The accordion masks are made by my cousin Joe Van Ginkel of Van Ginkel Athletic Manufacturing Company of Des Moines, Iowa."    
+    - "(Website under construction.  Errors - including inconsistent color choices - to be expected)"
   image : "images/mask3.png"
   button:
     enable: true
