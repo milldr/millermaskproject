@@ -144,14 +144,15 @@ masks:
   enable: true
   title: "Mask Designs"
   types:
-    - maskType: "Accordion Mask"
-      image: "images/showcase/showcase-5.png"
-      url: "accordionmask"
+
     - maskType: "ProperFit Mask"
-      image: "images/showcase/showcase-5.png"
+      image: "images/showcase/properfit-1.png"
       url: "properfitmask"
-    - maskType: "Miller Mask Design"
-      image: "images/showcase/showcase-5.png"
+    - maskType: "Special Edition Fabrics"
+      image: "images/showcase/special-edition-1.png"
       url: "millermaskdesign"
+    - maskType: "Accordion Mask"
+      image: "images/showcase/accordion-2.png"
+      url: "accordionmask"
 
 
