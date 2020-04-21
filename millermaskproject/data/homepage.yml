@@ -10,7 +10,7 @@ banner:
     - "Can I sew a mask for you?  If you know me, contact me and I will let you know how far out I am scheduling. I apologize that I cannot open up orders to the general public at this time."
     - "Nancy Miller"
     - "(Website under construction, errors to be expected. And yes, I am aware this paragraph is painfully long.)"
-  image : "images/mask2.png"
+  image : "images/mask3.png"
   button:
     enable: true
     label : "Donate to Feeding America"
