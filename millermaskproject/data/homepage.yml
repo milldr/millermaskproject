@@ -144,7 +144,6 @@ masks:
   enable: true
   title: "Mask Designs"
   types:
-
     - maskType: "ProperFit Mask"
       image: "images/showcase/properfit-1.png"
       url: "properfitmask"
