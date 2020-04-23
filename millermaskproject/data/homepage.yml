@@ -1,4 +1,3 @@
-############################# banner ############################
 banner:
   enable : true
   title : "Miller Mask Project"
@@ -18,39 +17,42 @@ banner:
     link: "http://help.feedingamerica.org/goto/MillerMaskProject"
   emphasis: "**Be safe!**  Sterilize your mask before its first use and immediately after each use by placing it in a 200F oven for 30 minutes."
 
-############################# Feature ############################
+masks:
+  enable: true
+  title: "Masks"
+  types:
+    - title: "ProperFit Design, random fabrics"
+      content: "I am a description"
+      image: "images/showcase/properfit-1.png"
+      link: "properfitmask"
+    - title: "Properfit Design, Special Edition Fabrics"
+      content: "I am a description"
+      image: "images/showcase/special-edition-1.png"
+      link: "millermaskdesign"
+    - title: "Accordion Design"
+      content: "I am a description"
+      image: "images/showcase/accordion-2.png"
+      link: "accordionmask"
+
 use:
   enable : true
   title : "How to Use"
-
   # feature at the left of the image
   leftSide:
     # feature item loop
   - title : "Adjust"
     content : "Each mask will need adjusting. Position it on your nose and form the metal nose piece until it is comfortable. Pull the elastic behind your head until it is snug. You might need to add another knot."
-    
     # feature item loop
   - title : "Wash"
     content : "Wash whenever desired. Either soak in hot soapy water or put it in a lingerie bag in your clothes washer. Dry the mask on either a dryer shelf or in a 200F oven. Don't tumble dry. The nose wire will pop out and the elastic will become entangled with your other clothes."
-
   # feature at the right of the image
   rightSide:
     # feature item loop
   - title : "Sterilize"
     content : "After you wear the mask outside, even it for a very short length of time, assume the front of it is contaminated. Remove it carefully. Do not set the mask on a clean surface.  Re-sterilize the mask by putting it directly into a 200F oven for 30 min.  Wash hands thoroughly. "
-
     # feature item loop
   - title : "No Sharing"
     content : "Write your name on the inside of your mask with a sharpie. Do not share masks, even after cleaning and sterilizing."
-
-  
-############################# promo ############################
-promo:
-  enable : false
-  directory: "images/showcase"
-  images : ["showcase-5.png", "showcase-6.png"] 
-  title : "Why fabric masks work"
-  content: "Wearing a fabric mask will not make you invincible against the coronavirus. But it will remind you to not touch your face, and it will block unexpected sneezes."
 
 gallery:
   enable : true
@@ -59,43 +61,6 @@ gallery:
   directory: "images/showcase"
   # Set the images to show in the gallery
   images: ["showcase-2.png", "showcase-4.png", "showcase-8.png", "showcase-11.png", "showcase-10.png", "showcase-9.png", "showcase-12.png", "showcase-13.png", "showcase-14.png", "showcase-15.png", "showcase-17.png", "showcase-18.png"]
-  landscapeImages: ["showcase-5.png", "showcase-6.png"] 
-
-diy:
-  enable : true
-  title : "Videos"
-  directory : "images"
-  content: ""
-  videos:
-    - title: "ProperFit Clothing Flu Mask"
-      subtitle: "Intermediate sewing skills"
-      link: "https://www.youtube.com/watch?v=N8WSpnVSsRg"
-      image: "video-1.png"
-    - title: "Jess OklaRoots, Sew Your Own Face Mask"
-      subtitle: "Beginner sewing skills"
-      link: "https://youtu.be/LDNYSU0AOmw"
-      image: "video-2.png"
-    - title: "How to make a mask with supplies from home"
-      subtitle: "No sewing skills"
-      link: "http://www.wbir.com/video/life/style/heres-how-to-make-a-mask-with-supplies-from-home/51-ad69e907-50ce-4c0e-8c82-0a38042e8693?jwsource=cl"
-      image: "video-3.png"
-
-donations:
-  enable : true
-  # bgImage : "images/call-to-action.jpg"
-  title : "Ohio Gov. Mike DeWine, 3/21/2020:"
-  content : "\"Each night when I go to bed I ask myself if I've done everything I could to defeat this enemy. I would ask all of you to ask yourselves the same thing - are you doing everything you can to stop this?\""
-  button:
-    enable : true
-    label : "Donate to Feeding America"
-    link: "http://help.feedingamerica.org/goto/MillerMaskProject"
-
-contact:
-  enable: true
-  title: "Contact"
-  content: 
-    - "If you know me and have my contact information, I would be happy to make a mask for you. I apologize that I cannot take orders from the general public."
-    - "I am only one person, and each mask takes about an hour for me to make."
 
 faq:
   enable: true
@@ -141,18 +106,8 @@ about:
     - "\"The mission of the Miller Mask Project is to fight the coronavirus on two fronts: covering people’s faces and raising money to help feed the most vulnerable Americans. This project is entirely self-funded. I am a one-woman operation, and I have been cutting and sewing for over 10 hours a day, 7 days a week since March 21st. The masks I make are more involved than the standard accordion masks, each one taking me over an hour to make. I am going the extra mile, and I hope you will too.\""
     - "-- Nancy"
 
-masks:
+contact:
   enable: true
-  title: "Masks"
-  types:
-    - maskType: "ProperFit Design, random fabrics"
-      image: "images/showcase/properfit-1.png"
-      url: "properfitmask"
-    - maskType: "Properfit Design, Special Edition Fabrics"
-      image: "images/showcase/special-edition-1.png"
-      url: "millermaskdesign"
-    - maskType: "Accordion Design"
-      image: "images/showcase/accordion-2.png"
-      url: "accordionmask"
-
-
+  title: "Contact"
+  content: 
+    - "If you know me and have my contact information, I would be happy to make a mask for you. I apologize that I cannot take orders from the general public. I am only one person, and each mask takes about an hour for me to make."

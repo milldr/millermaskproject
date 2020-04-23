@@ -112,7 +112,7 @@ a:active {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .font-size-60 {
@@ -385,7 +385,7 @@ a:active {
   Gallery start
 --*/
 .gallery {
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .gallery .owl-item {

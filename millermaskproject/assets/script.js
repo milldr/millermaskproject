@@ -3,9 +3,10 @@ $(document).ready(function () {
   $(".gallery-slider").owlCarousel({
     pagination: true,
     autoPlay: 5000,
-    itemsDesktop: [1500, 3],
-    itemsDesktopSmall: [979, 3],
-    items: 5
+    itemsDesktop: [1500, 5],
+    itemsDesktopSmall: [200, 5],
+    items: 5,
+    freeDrag: true
   });
 
   $(".video-slider").owlCarousel({
@@ -13,7 +14,8 @@ $(document).ready(function () {
     autoPlay: 5000,
     itemsDesktop: [1500, 3],
     itemsDesktopSmall: [979, 3],
-    items: 3
+    items: 3,
+    freeDrag: true
   });
 
   $(".single-gallery-slider").owlCarousel({
@@ -21,7 +23,8 @@ $(document).ready(function () {
     autoPlay: 4000,
     itemsDesktop: [1500, 1],
     itemsDesktopSmall: [979, 1],
-    items: 1
+    items: 1,
+    freeDrag: true
   });
 
   // Gallery Popup
