@@ -2,3 +2,4 @@
 .DS_Store
 *.swp
 millermaskproject/public
+millermaskproject/public/*
