@@ -35,35 +35,24 @@ theme = "vex"
 [menu]
 
   [[menu.main]]
-  name = "How to Use"
-  URL = "use"
+  name = "Masks"
+  URL = "masks"
   weight = 3
 
   [[menu.main]]
-  name = "Masks"
-  URL = "masks"
+  name = "How to Use"
+  URL = "use"
   weight = 4
 
-  [[menu.main]]
-  name = "Donate"
-  URL = "donate"
-  weight = 5
-  
   [[menu.main]]
   name = "FAQ"
   URL = "faq"
   weight = 6
 
   [[menu.main]]
-  name = "Videos"
-  URL = "videos"
-  weight = 7
-
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 8
-  
+  name = "Donate"
+  URL = "donate"
+  weight = 10
 
 ########################### Default parameters ##########################
 [params]
@@ -74,8 +63,7 @@ author = "milldr"
 # Google Analitycs
 google_analitycs_id = "TODO"
 # copyright
-copyright = "Created by [@milldr](https://github.com/milldr) | Copyright 2020 &copy; [millermaskproject](https://github.com/milldr/millermaskproject/) | All right reserved."
-footerNote = "Note from the developer: If you like this site, please let me know! I'd be happy to make one for you too. Email me at [millermaskproject@gmail.com](mailto:millermaskproject@gmail.com)"
+copyright = "Created by [@milldr](https://github.com/milldr) | Copyright 2020 &copy; [millermaskproject](https://github.com/milldr/millermaskproject/)"
 
 # Preloader
 [params.preloader]

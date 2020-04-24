@@ -22,15 +22,15 @@ masks:
   title: "Masks"
   types:
     - title: "ProperFit Design, random fabrics"
-      content: "I am a description"
+      content: "I am a description. Will be done asap"
       image: "images/showcase/properfit-1.png"
       link: "properfitmask"
     - title: "Properfit Design, Special Edition Fabrics"
-      content: "I am a description"
+      content: "I am a description. Will be done asap"
       image: "images/showcase/special-edition-1.png"
       link: "millermaskdesign"
     - title: "Accordion Design"
-      content: "I am a description"
+      content: "I am a description. Will be done asap"
       image: "images/showcase/accordion-2.png"
       link: "accordionmask"
 
@@ -89,25 +89,35 @@ faq:
     - question: "How much should I donate to this FeedingAmerica fundraiser?"
       answers:
         - "Very loose guidelines only, no contribution is too large or too small:"
-      answerlist: 
-        - "You are out of work and can’t pay your rent, you are an essential worker and have been under appreciated and underpaid until this crisis, or you are over 75 years old: $0"
-        - "Your work has been cut back, the budget is tight, but you are not worried about where your next meal is coming from: $25/mask"
-        - "Your refrigerators are packed and you have been spending the majority of your days watching Netflix: $50/mask"
-        - "You did not cancel your spring break plans despite the warnings: $100/mask"
-        - "Your business is booming and you can’t believe your good luck: $200/mask"
+      answerList: 
+        - content: "You are out of work and can’t pay your rent, you are an essential worker and have been under appreciated and underpaid until this crisis, or you are over 75 years old: $0"
+        - content: "Your work has been cut back, the budget is tight, but you are not worried about where your next meal is coming from: $25/mask"
+        - content: "Your refrigerators are packed and you have been spending the majority of your days watching Netflix: $50/mask"
+        - content: "You did not cancel your spring break plans despite the warnings: $100/mask"
+        - content: "Your business is booming and you can’t believe your good luck: $200/mask"
       image: ""  
-      
-about:
-  enable : false
-  directory: "images/showcase"
-  images : ["showcase-3.png"] 
-  title : "Message from the Maker"
-  content:
-    - "\"The mission of the Miller Mask Project is to fight the coronavirus on two fronts: covering people’s faces and raising money to help feed the most vulnerable Americans. This project is entirely self-funded. I am a one-woman operation, and I have been cutting and sewing for over 10 hours a day, 7 days a week since March 21st. The masks I make are more involved than the standard accordion masks, each one taking me over an hour to make. I am going the extra mile, and I hope you will too.\""
-    - "-- Nancy"
+    - question: "Can I do it myself?"
+      answers:
+        - "Absolutely! Check out any of these fantastic DIY videos, ~~or download our DIY Instruction Manual:~~" 
+      answerList: 
+        - content: "ProperFit Clothing Flu Mask (intermediate sewing skills)"
+          link: "https://www.youtube.com/watch?v=N8WSpnVSsRg"
+        - content: "Jess OklaRoots, Sew Your Own Face Mask (beginner sewing skills)"
+          link: "https://youtu.be/LDNYSU0AOmw"
+        - content: "How to make a mask with supplies from home (no sewing skills)"
+          link: "http://www.wbir.com/video/life/style/heres-how-to-make-a-mask-with-supplies-from-home/51-ad69e907-50ce-4c0e-8c82-0a38042e8693?jwsource=cl"
+      image: ""  
+
 
 contact:
   enable: true
   title: "Contact"
-  content: 
-    - "If you know me and have my contact information, I would be happy to make a mask for you. I apologize that I cannot take orders from the general public. I am only one person, and each mask takes about an hour for me to make."
+  items:
+    - content: "If you know me and have my contact information, I would be happy to make a mask for you. I apologize that I cannot take orders from the general public. I am only one person, and each mask takes about an hour for me to make."
+      designation: "Creator"
+      name: "Nancy"
+      image: ""
+    - content: "If you like this site, please let me know! I'd be happy to make one for you too. Email me at [millermaskproject@gmail.com](mailto:millermaskproject@gmail.com)"
+      designation: "Developer"
+      name: "Dan"
+      image: ""

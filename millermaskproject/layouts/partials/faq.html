@@ -6,21 +6,26 @@
       <div class="col-12">
         <div class="heading">
           <h2>{{ .title | markdownify }}</h2>
+          <p>Click a question or button to expand an answer</p>
         </div>
       </div>
-      {{ range .items }}
-      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center">
+      {{ range $i, $e := .items }}
+      <div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-center">
         <div class="faq-block">
-          <!--<i class="tf-ion-chatbubbles"></i>-->
           <div class="author-details">
-            <img src="{{ .image | absURL }}" alt="{{ .name }}">
-            <h4>{{ .question }}</h4>
-            {{ range .answers }}
-            <p class="answer">{{ . | markdownify }}</p>
+            <h4 data-toggle="collapse" data-target="#id{{ $i }}">{{ $e.question }}<i class="faq-icon tf-ion-chatbubbles"></i></h4>
+            <div id="id{{ $i }}" class="collapse">
+            {{ range $e.answers }}
+              <p class="answer">{{ . | markdownify }}</p>
             {{ end }}
-            {{ range .answerlist }}
-            <li class="subanswer">{{ . | markdownify }}</li>
+            {{ range $e.answerList }}
+              {{ if .link }}
+                <li class="subanswer"><a href={{ .link }} >{{ .content | markdownify }}</a></li>
+              {{ else }}
+                <li class="subanswer">{{ .content | markdownify }}</li>
+              {{ end }}
             {{ end }}
+            </div>
           </div>
         </div>
       </div>

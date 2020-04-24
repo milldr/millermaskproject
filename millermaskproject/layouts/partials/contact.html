@@ -1,15 +1,26 @@
 {{ if .Site.Data.homepage.contact.enable }}
 {{ with .Site.Data.homepage.contact }}
 <section class="bg-orange section gallery" id="contact">
-  <br><br>
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 col-md-8 text-center mx-auto">
+      <div class="col-lg-12 col-md-12 text-center">
         <h2 class="text-white subheading font-weight-bold mb-10">{{ .title | markdownify }}</h2>
-        {{ range .content }}
-        <p class="text-white" >{{ . | markdownify }}</p>
-        {{ end }}
       </div>
+
+      {{ range .items }}
+      <div class="col-lg-6 col-sm-6 mb-lg-0 text-center text-white">
+        <div class="col-lg-12 faq-block">
+          <i class="tf-ion-quote" style="font-size: 24px"></i>
+          <p class="contact-content">{{ .content | markdownify }}</p>
+          <div class="author-details">
+            <!-- <img src="{{ .image | absURL }}"> -->
+            <h4>{{ .name }}</h4>
+            <span>{{ .designation }}</span>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+
     </div>
   </div>
 </section>
