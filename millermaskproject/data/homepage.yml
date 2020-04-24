@@ -113,11 +113,11 @@ contact:
   enable: true
   title: "Contact"
   items:
-    - content: "If you know me and have my contact information, I would be happy to make a mask for you. I apologize that I cannot take orders from the general public. I am only one person, and each mask takes about an hour for me to make."
+    - content: "If you know me and have my contact information, I would be happy to make a mask for you. You can also reach me at [millermaskproject@gmail.com](mailto:millermaskproject@gmail.com). I apologize that I cannot take orders from the general public. I am only one person, and each mask takes about an hour for me to make."
       designation: "Creator"
       name: "Nancy"
       image: ""
-    - content: "If you like this site, please let me know! I'd be happy to make one for you too. Email me at [millermaskproject@gmail.com](mailto:millermaskproject@gmail.com)"
+    - content: "This website is entirely automated, including infrastructure and deployment. [Check it out](https://github.com/milldr/millermaskproject/). If you like this site, please let me know! I'd be happy to make one for you too. Email me at [the same email](mailto:millermaskproject@gmail.com)."
       designation: "Developer"
       name: "Dan"
       image: ""
