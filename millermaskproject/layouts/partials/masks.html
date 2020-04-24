@@ -38,9 +38,9 @@
         <div class="content">
           <h4 class="subheading">{{ .title | markdownify }}</h4>
           {{ range .content }}
-            <p>{{ .paragraph | markdownify }}</p>
+            <p class="masks-content">{{ .paragraph | markdownify }}</p>
             {{ range .list }}
-            <li>{{ . | markdownify }}</li>
+            <li class="masks-content">{{ . | markdownify }}</li>
             {{ end }}
           {{ end }}
           {{ if .button.enable }}
