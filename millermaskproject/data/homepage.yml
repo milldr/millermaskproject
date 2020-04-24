@@ -3,13 +3,7 @@ banner:
   title : "Miller Mask Project"
   subtitle: "Together, we can do it!"
   content: 
-    - "The Miller Mask Project is my effort to fight the coronavirus by sewing high-quality, well-designed fabric face masks in exchange for your donation to Feeding America. I accept no payment other than donation. - Nancy Miller"
-    - "Suggested Donations:"
-    - "ProperFit Design, Repurposed Fabrics - $25 each"
-    - "ProperFit Design, Special Edition Fabrics - $35 each"
-    - "Accordion Design * - $10 each"
-    - "*The accordion masks are made by my cousin Joe Van Ginkel of Van Ginkel Athletic Manufacturing Company of Des Moines, Iowa."    
-    - "(Website under construction.  Errors - including inconsistent color choices - to be expected)"
+    - "The Miller Mask Project is my effort to fight the coronavirus by sewing high-quality, well-designed fabric face masks. I make each mask by hand, and I will not accept any payment. Please consider making a donation to Feeding America instead. - Nancy Miller"
   image : "images/mask4.png"
   button:
     enable: true
@@ -38,12 +32,12 @@ masks:
       link: "properfitmask"
     - title: "Properfit Design, Special Edition Fabrics"
       content: 
-        - paragraph: "I am a description. Will be done asap"
+        - paragraph: ""
       image: "images/showcase/special-edition-1.png"
       link: "millermaskdesign"
     - title: "Accordion Design"
       content: 
-        - paragraph: "I am a description. Will be done asap"
+        - paragraph: "Made by my cousin Joe Van Ginkel of Van Ginkel Athletic Manufacturing Company of Des Moines, Iowa."    
       image: "images/showcase/accordion-2.png"
       link: "accordionmask"
 
