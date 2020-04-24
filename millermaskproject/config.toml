@@ -61,7 +61,7 @@ home = "Home"
 description = "information about the covid relief mask project"
 author = "milldr"
 # Google Analitycs
-google_analitycs_id = "TODO"
+google_analitycs_id = "UA-164491077-1"
 # copyright
 copyright = "Created by [@milldr](https://github.com/milldr) | Copyright 2020 &copy; [millermaskproject](https://github.com/milldr/millermaskproject/)"
 
