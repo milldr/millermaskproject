@@ -19,11 +19,13 @@ masks:
   enable: true
   title: "Masks"
   types:
-    - title: "ProperFit Design, random fabrics"
+    - title: "ProperFit Design, Re-Purposed Fabrics"
       content: 
-        - paragraph: "Properfit Style Mask:"
+        - paragraph: "Properfit Design, Re-purposed Fabrics"
           list:
             - "Two layers of 100% cotton"
+            - "Top layer: re-purposed fabric including cotton shirts or dresses"
+            - "Internal layer: new sheeting fabric"
             - "One layer non-woven interfacing"
             - "Pocket for optional filter"
             - "Long elastic wraps around back of head twice."
@@ -31,12 +33,22 @@ masks:
         - paragraph: "Suggested donation:"
           list:
           - "$25 each"
-          - "$35 each for special edition fabrics"
       image: "images/showcase/properfit-1.png"
       link: "properfitmask"
     - title: "Properfit Design, Special Edition Fabrics"
       content: 
-        - paragraph: ""
+        - paragraph: "Properfit Style Mask:"
+          list:
+            - "Two layers of 100% cotton"
+            - "Top layer: new special order fabric" 
+            - "Internal layer: new sheeting fabric"
+            - "One layer non-woven interfacing"
+            - "Pocket for optional filter"
+            - "Long elastic wraps around back of head twice."
+            - "Nose wire for snug fit around nose"
+        - paragraph: "Suggested donation:"
+          list:
+          - "$35 each for special edition fabrics"
       image: "images/showcase/special-edition-1.png"
       link: "millermaskdesign"
     - title: "Accordion Design"
