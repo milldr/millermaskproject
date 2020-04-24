@@ -584,4 +584,12 @@ footer p.footer-note-text a {
   letter-spacing: 1px;
 }
 
+.masks-content {
+  font-size: 16px;
+  margin: 0;
+}
+p.masks-content {
+  margin: 10px 0 0 0;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

@@ -22,15 +22,28 @@ masks:
   title: "Masks"
   types:
     - title: "ProperFit Design, random fabrics"
-      content: "I am a description. Will be done asap"
+      content: 
+        - paragraph: "Properfit Style Mask:"
+          list:
+            - "Two layers of 100% cotton"
+            - "One layer non-woven interfacing"
+            - "Pocket for optional filter"
+            - "Long elastic wraps around back of head twice."
+            - "Nose wire for snug fit around nose"
+        - paragraph: "Suggested donation:"
+          list:
+          - "$25 each"
+          - "$35 each for special edition fabrics"
       image: "images/showcase/properfit-1.png"
       link: "properfitmask"
     - title: "Properfit Design, Special Edition Fabrics"
-      content: "I am a description. Will be done asap"
+      content: 
+        - paragraph: "I am a description. Will be done asap"
       image: "images/showcase/special-edition-1.png"
       link: "millermaskdesign"
     - title: "Accordion Design"
-      content: "I am a description. Will be done asap"
+      content: 
+        - paragraph: "I am a description. Will be done asap"
       image: "images/showcase/accordion-2.png"
       link: "accordionmask"
 
