@@ -5,8 +5,8 @@ banner:
   content: 
     - "The Miller Mask Project is my fight against the Coronvavirus. I sew high-quality, well-fitting masks to help slow the spread. In return, I request you to make a donation to Feeding America, the largest hunger-relief organization in the U.S. Let’s do what we can to be sure no American goes hungry during the Co-Vid pandemic. - Nancy Miller"
     - "How it works:"
-    - "Email me at MillerMaskProject@gmail.com. Let me know how many masks you would like, if they are for men or women, and your address. I will respond with an estimated shipping or pick up date."
-    - "Make a donation to Feeding America anytime. If you make it through my link, it gets credited to my fundraiser. Of course all funds go to Feeding America, and I receive no compensation other than the satisfaction of knowing that together we are making a difference!"
+    - "To request a mask, email me at MillerMaskProject@gmail.com. Let me know how many you would like, if they are for men or women, and your address. I will respond with an estimated shipping or pick up date."
+    - "To make a donation, click the link provided. You can donate anytime - before, after, or before AND after you receive my masks. All funds go to Feeding America. I receive no compensation other than the satisfaction of knowing that together we are making a difference!"
   image : "images/mask4.png"
   button:
     enable: true
