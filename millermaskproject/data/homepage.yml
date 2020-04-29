@@ -65,16 +65,20 @@ use:
   - title : "Adjust"
     content : "Each mask will need adjusting. Position it on your nose and form the metal nose piece until it is comfortable. Pull the elastic behind your head until it is snug. You might need to add another knot."
     # feature item loop
-  - title : "Wash"
-    content : "Wash whenever desired. Either soak in hot soapy water or put it in a lingerie bag in your clothes washer. Dry the mask on either a dryer shelf or in a 200F oven. Don't tumble dry. The nose wire will pop out and the elastic will become entangled with your other clothes."
-  # feature at the right of the image
-  rightSide:
-    # feature item loop
-  - title : "Sterilize"
-    content : "After you wear the mask outside, even it for a very short length of time, assume the front of it is contaminated. Remove it carefully. Do not set the mask on a clean surface.  Re-sterilize the mask by putting it directly into a 200F oven for 30 min.  Wash hands thoroughly. "
-    # feature item loop
   - title : "No Sharing"
     content : "Write your name on the inside of your mask with a sharpie. Do not share masks, even after cleaning and sterilizing."
+  # feature item loop
+  - title : "Sterilize"
+    content : "After you wear the mask outside, even it for a very short length of time, assume the front of it is contaminated. Remove it carefully. Do not set the mask on a clean surface.  Re-sterilize the mask by putting it directly into a 200F oven for 30 min.  Wash hands thoroughly. "
+   
+  # feature at the right of the image
+  rightSide:
+   # feature item loop
+  - title : "Wash"
+    content : "Wash whenever desired. Either soak in hot soapy water or put it in a lingerie bag in your clothes washer. Dry the mask on either a dryer shelf or in a 200F oven. Don't tumble dry, or the nose wire will pop out and the elastic will become entangled with your other clothes." 
+    # feature item loop
+  - title : "Optional Filter"
+    content : "The ProperFit mask was designed to fit PM2.5 filters (which of course are in short supply). You can make your own filter from such household items as vacuum filters, HVAC filters, shop towels, kitchen dishtowels, or paper towels. Simply cut the material to the size of a PM2.5 filter (about 4.5 x 3 inches), whip stitch the edges if necessary, and insert it in the pocket.  Be sure your filter is either disposable or washable, as it is very important to keep it virus-free. But even without a filter, your Properfit mask offers protection. It has 2 layers of cotton and one layer of non-woven interfacing, as recommended by Smart Air Filters for the best balance of protection and breathability (that is, for homemade masks).”   
 
 gallery:
   enable : true
