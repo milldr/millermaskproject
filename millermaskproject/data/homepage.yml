@@ -7,12 +7,12 @@ banner:
     - "How it works:"
     - "1) Email me at MillerMaskProject@gmail.com to request masks."    
     - "2) I will respond with a few questions and expected timing."
-    - "3) Please make your donation after you receive your masks. "
+    - "3) Please make your donation after you receive your masks."
     - "Please understand, I make each mask to order. I cannot accommodate rush or large orders. Also, know that 100% of your donation goes to Feeding America. I receive no compensation other than the satisfaction of knowing that, with each dollar donated to the MillerMaskProject fundraiser, TEN meals are provided to those in need!" 
   image : "images/mask4.png"
   button:
     enable: true
-    label : "Donate to FeedingAmerica/MillerMaskProject"
+    label : "Donate to FeedingAmerica - MillerMaskProject"
     link: "http://help.feedingamerica.org/goto/MillerMaskProject"
 
 masks:
@@ -57,10 +57,10 @@ use:
   leftSide:
     # feature item loop
   - title : "Adjust"
-    content : "Each mask will need adjusting. First, form the metal nose piece so that the pressure is on your cheeks, not on your nose. Next, rearrange/tighten the elastic behind your head (you might need to add a knot) so that the mask stays in place but not so tight that the nose wire hurts your nose."
+    content : "Each mask will need adjusting. First, form the metal nose piece so the pressure is on your cheeks, not on your nose. Next, rearrange/tighten the elastic behind your head (you might need to add a knot) so that the mask stays in place but not so tight that the nose wire hurts your nose."
     # feature item loop
   - title : "No Sharing"
-    content : "Write your name on the inside of your mask with a sharpie. Do not share masks, even after cleaning."
+    content : "Write your name on the inside of your mask with a sharpie. Do not share masks, even after washing."
     # feature item loop
   - title : "Wash"
     content : "Wash frequently, either by hand or in a lingerie bag in your clothes washer."
@@ -90,28 +90,28 @@ faq:
       answers: 
         - "Wash your mask as frequently as possible, either by hand or in a lingerie bag in your clothes washer. Hang dry or dry on a dryer shelf. You can also dry masks in a 170 oven if you do so carefully - preheat the oven, place the mask on a dishtowel on a cookie sheet, place it in the center of the oven, set a timer for 30 minutes."
       image: ""
-    - question: "Why is the lingerie bag so important?  Why can’t I toss it in the dryer with my clothes?"
+    - question: "Why is the lingerie bag so important? Why can’t I toss it in the dryer with my clothes?"
       answers: 
         - "If the mask is thrown in your washer and dryer along with a regular load, your clothes will become entangled in the elastic and the nose wire will eventually pop out. This is why I recommend washing your mask in a lingerie bag and not tumbling it dry."
       image: ""
      - question: "I can’t breathe through the mask!"
       answers: 
-        - "I apologize if you ended up with a suffocating mask. Striking the right balance of effective filtering and breathability has been an ongoing challenge. Here are a few things to try: First, wash the mask several times. Soap and water will dissolve the layer of glue from the fusible interfacing, but the interfacing (which is lightweight, good for filtration, and breathable) will remain. Next, try adding a faux-filter. Cut a paper towel to 5 x 3.5 inches and slide it in the interior pocket. The paper will separate the layers of cotton so they don’t stick together when you breathe in. If you try these things and your mask is still too impermeable, let me know and I will make a new one for you."
+        - "I apologize if you ended up with a suffocating mask. Striking the right balance of effective filtering and breathability has been an ongoing challenge. Here are a few things to try: First, wash the mask several times. Soap and water will dissolve the layer of glue from the fusible interfacing, but the interfacing (which is lightweight, good for filtration, and breathable) will remain. Next, try placing a paper towel in the pocket. Cut a piece to 5 x 3.5 inches and slide it in the pocket. The paper will separate the layers of cotton so they don’t stick together when you breathe in. If you try these things and your mask is still too impermeable, let me know and I will make a new one for you."
       image: ""
     - question: "The nose wire is too painful! What can I do?"
       answers: 
         - "First try re-adjusting the nose wire. It should be molded so that pressure is on your cheeks, not on your delicate nose bridge. Next, be sure the elastic straps are not too tight behind your head. They should be almost loose - tightened just barely enough to keep the mask from falling off your face. Over-tightened elastic will result in a very painful nose wire. Another possibility is that you have an early version of my masks where I was using a larger nose wire. You can snip it out (cut threads, not fabric) and try replacing it with a softer twist tie. Or contact me and I will send you an updated version with a kinder nose wire."
       image: ""  
-    - question: "$25 and $35 for a mask? Isn’t that kind of pricey?"
+    - question: "$25 or $35 for a mask? Isn’t that kind of pricey?"
       answers:
         - "This is a fundraiser, not a profit making venture. I am donating my time and going above and beyond to make the highest quality fabric masks possible. In return, I ask that you also go above and beyond in your generosity to Feeding America."
  - question: "I need a lot of masks FAST!  Can you help me?"
       answers: 
-        - "I make each mask to order, so it is very difficult for me to turn out more than say 15 masks in a hurry. If you need a lot of masks in a short amount of time, I recommend you contact my cousin’s store, VanGinkel Athletic Company. www.facebook.com/VanGinkelAthleticCo/."
+        - "I make each mask to order, so it is very difficult for me to turn out more than say 15 masks in a hurry. If you need a lot of masks in a short amount of time, I recommend you contact my cousin’s store,[VanGinkel Athletic Company](https://www.facebook.com/VanGinkelAthleticCo/)."
       image: ""  
  - question: "Can you make masks with fabric ties rather than elastic?"
       answers: 
-        - "Yes, I can make masks with fabric ties, but I recommend that you first check out my sister in law’s Etsy Shop. www.etsy.com/shop/Silvertwigdesign. Her mask pattern includes fabric ties, a nose wire, and a filter pocket. She is an architect so, as you can imagine, she uses beautiful fabrics and she is a stickler for detail. She also donates proceed to Feeding America."
+        - "Yes, I can make masks with fabric ties, but I recommend that you first check out [my sister in law’s Etsy Shop](https://www.etsy.com/shop/Silvertwigdesign/). Her mask pattern includes fabric ties, a nose wire, and a filter pocket. She is an architect so, as you can imagine, she uses beautiful fabrics and she is a stickler for detail. She also donates proceed to Feeding America."
       image: ""  
  - question: "Can you make custom masks with my business logo?"
       answers: 
