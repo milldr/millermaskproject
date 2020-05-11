@@ -12,7 +12,7 @@ banner:
   image : "images/mask4.png"
   button:
     enable: true
-    label : "Donate to FeedingAmerica - MillerMaskProject"
+    label : "Donate to FeedingAmerica, MillerMaskProject"
     link: "http://help.feedingamerica.org/goto/MillerMaskProject"
 
 masks:
@@ -107,11 +107,11 @@ faq:
         - "This is a fundraiser, not a profit making venture. I am donating my time and going above and beyond to make the highest quality fabric masks possible. In return, I ask that you also go above and beyond in your generosity to Feeding America."
  - question: "I need a lot of masks FAST!  Can you help me?"
       answers: 
-        - "I make each mask to order, so it is very difficult for me to turn out more than say 15 masks in a hurry. If you need a lot of masks in a short amount of time, I recommend you contact my cousin’s store,[VanGinkel Athletic Company](https://www.facebook.com/VanGinkelAthleticCo/)."
+        - "I make each mask to order, so it is very difficult for me to turn out more than say 15 masks in a hurry. If you need a lot of masks in a short amount of time, I recommend you contact my cousin’s store, Van Ginkel Athletic Co."
       image: ""  
  - question: "Can you make masks with fabric ties rather than elastic?"
       answers: 
-        - "Yes, I can make masks with fabric ties, but I recommend that you first check out [my sister in law’s Etsy Shop](https://www.etsy.com/shop/Silvertwigdesign/). Her mask pattern includes fabric ties, a nose wire, and a filter pocket. She is an architect so, as you can imagine, she uses beautiful fabrics and she is a stickler for detail. She also donates proceed to Feeding America."
+        - "Yes, I can make masks with fabric ties, but I recommend that you first check out my sister in law’s Etsy Shop, Silvertwigdesign. Her mask pattern includes fabric ties, a nose wire, and a filter pocket. She is an architect so, as you can imagine, she uses beautiful fabrics and she is a stickler for detail. She also donates proceed to Feeding America."
       image: ""  
  - question: "Can you make custom masks with my business logo?"
       answers: 
