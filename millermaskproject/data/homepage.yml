@@ -12,7 +12,7 @@ banner:
   image : "images/mask4.png"
   button:
     enable: true
-    label : "Donate to FeedingAmerica, MillerMaskProject"
+    label : "Donate to FeedingAmerica - MillerMaskProject"
     link: "http://help.feedingamerica.org/goto/MillerMaskProject"
 
 masks:
@@ -69,7 +69,7 @@ use:
   rightSide:
     # feature item loop
   - title : "Dry"
-    content : "Don't tumble dry. The nose wire could pop out and the elastic will become entangled with your clothes. Hang dry or dry on a dryer shelf. You can also dry/sterilize masks in a 170 oven if you do so carefully - preheat the oven, place the mask on a dishtowel on a cookie sheet, place it in the center of the oven, set a timer for 30 minutes."     
+    content : "Don't tumble dry. The nose wire could pop out and the elastic will become entangled with your clothes. Hang dry or dry on a dryer shelf. You can also dry masks in a 170 oven if you do so carefully - preheat the oven, place the mask on a dishtowel on a cookie sheet, place it in the center of the oven, set a timer for 30 minutes."     
     # feature item loop
   - title : "Optional Filter"
     content : "The ProperFit mask was designed to fit PM2.5 filters (which of course are in short supply). You can make your own filter from a paper towel. Simply cut to 5 x 3.5 inches and insert in the pocket. For more information on DIY filters, google: Properfit Clothing How to Make PM2.5 Filters."
@@ -105,13 +105,13 @@ faq:
     - question: "$25 or $35 for a mask? Isn’t that kind of pricey?"
       answers:
         - "This is a fundraiser, not a profit making venture. I am donating my time and going above and beyond to make the highest quality fabric masks possible. In return, I ask that you also go above and beyond in your generosity to Feeding America."
- - question: "I need a lot of masks FAST!  Can you help me?"
+ - question: "I need a lot of masks FAST! Can you help me?"
       answers: 
         - "I make each mask to order, so it is very difficult for me to turn out more than say 15 masks in a hurry. If you need a lot of masks in a short amount of time, I recommend you contact my cousin’s store, Van Ginkel Athletic Co."
       image: ""  
  - question: "Can you make masks with fabric ties rather than elastic?"
       answers: 
-        - "Yes, I can make masks with fabric ties, but I recommend that you first check out my sister in law’s Etsy Shop, Silvertwigdesign. Her mask pattern includes fabric ties, a nose wire, and a filter pocket. She is an architect so, as you can imagine, she uses beautiful fabrics and she is a stickler for detail. She also donates proceed to Feeding America."
+        - "Yes, I can make masks with fabric ties, but I recommend that you first check out my sister in law’s Etsy Shop, Silvertwigdesign. Her mask pattern includes fabric ties, a nose wire, and a filter pocket. She is an architect so, as you can imagine, she uses beautiful fabrics and she is a stickler for detail. She also donates proceeds to Feeding America."
       image: ""  
  - question: "Can you make custom masks with my business logo?"
       answers: 
@@ -119,7 +119,7 @@ faq:
       image: ""   
     - question: "Can I do it myself?"
       answers:
-        - "Absolutely! Check out any of these fantastic DIY videos, ~~or download our DIY Instruction Manual:~~" 
+        - "Absolutely! Check out any of these fantastic DIY videos:" 
       answerList: 
         - content: "ProperFit Clothing Flu Mask (intermediate sewing skills)"
           link: "https://www.youtube.com/watch?v=N8WSpnVSsRg"
