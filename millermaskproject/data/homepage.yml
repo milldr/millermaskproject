@@ -26,7 +26,7 @@ masks:
             - "Two layers of 100% cotton plus a third internal layer of non-woven interfacing"
             - "Pocket for optional filter"
             - "Long elastic wraps around back of head twice"
-            - "Nose wire for snug fit around nose"
+            - "Nose wire for custom fit around nose"
         - paragraph: "Suggested donation:"
           list:
           - "$25 each"
@@ -46,7 +46,7 @@ masks:
       link: "millermaskdesign"
     - title: "Miller Mask Originals"
       content: 
-        - paragraph: "Currently under development."    
+        - paragraph: "Currently under development"    
       image: "images/showcase/MMPoriginal-1.png"
       link: "accordionmask"
 
@@ -72,7 +72,7 @@ use:
     content : "Don't tumble dry. The nose wire could pop out and the elastic will become entangled with your clothes. Hang dry or dry on a dryer shelf. You can also dry/sterilize masks in a 170 oven if you do so carefully - preheat the oven, place the mask on a dishtowel on a cookie sheet, place it in the center of the oven, set a timer for 30 minutes."     
     # feature item loop
   - title : "Optional Filter"
-    content : "The ProperFit mask was designed to fit PM2.5 filters (which of course are in short supply). You can make your own filter from a paper towel. Simply cut to 5 x 3.5 inches and insert in the pocket. For more information on DIY filters, google “Properfit Clothing How to Make PM2.5 Filters.” "
+    content : "The ProperFit mask was designed to fit PM2.5 filters (which of course are in short supply). You can make your own filter from a paper towel. Simply cut to 5 x 3.5 inches and insert in the pocket. For more information on DIY filters, google: Properfit Clothing How to Make PM2.5 Filters."
 
 gallery:
   enable : true
@@ -96,7 +96,7 @@ faq:
       image: ""
      - question: "I can’t breathe through the mask!"
       answers: 
-        - "I apologize if you ended up with a suffocating mask. Striking the right balance of effective filtering and breathability has been an ongoing challenge. Here are a few things to try:  First, wash the mask several times. Soap and water will dissolve the layer of “glue” from the fusible interfacing, but the interfacing (which is lightweight, good for filtration, and breathable) will remain. Next, try adding a “filter.” Cut a paper towel to 5 x 3.5 inches and slide it in the interior pocket. The paper will separate the layers of cotton so they don’t stick together when you breathe in. If you try these things and your mask is still too impermeable, let me know and I will make a new one for you."
+        - "I apologize if you ended up with a suffocating mask. Striking the right balance of effective filtering and breathability has been an ongoing challenge. Here are a few things to try: First, wash the mask several times. Soap and water will dissolve the layer of glue from the fusible interfacing, but the interfacing (which is lightweight, good for filtration, and breathable) will remain. Next, try adding a faux-filter. Cut a paper towel to 5 x 3.5 inches and slide it in the interior pocket. The paper will separate the layers of cotton so they don’t stick together when you breathe in. If you try these things and your mask is still too impermeable, let me know and I will make a new one for you."
       image: ""
     - question: "The nose wire is too painful! What can I do?"
       answers: 
