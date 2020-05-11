@@ -14,7 +14,6 @@ banner:
     enable: true
     label : "Donate to Feeding America"
     link: "http://help.feedingamerica.org/goto/MillerMaskProject"
-  emphasis: "**Be safe!**  Sterilize your mask before its first use and immediately after each use by placing it in a 200F oven for 30 minutes."
 
 masks:
   enable: true
