@@ -79,7 +79,7 @@ use:
     content : "Don't tumble dry. The nose wire could pop out and the elastic will become entangled with your clothes. Hang dry or dry on a dryer shelf. You can also dry/sterilize masks in a 170 oven if you do so carefully - preheat the oven, place the mask on a dishtowel on a cookie sheet, place it in the center of the oven, set a timer for 30 minutes."     
     # feature item loop
   - title : "Optional Filter"
-    content : "The ProperFit mask was designed to fit PM2.5 filters (which of course are in short supply). You can make your own filter from a paper towels. Simply cut to 5 x 3.5 inches and insert in the pocket. For more information on DIY filters, google “Properfit Clothing How to Make PM2.5 Filters.” "
+    content : "The ProperFit mask was designed to fit PM2.5 filters (which of course are in short supply). You can make your own filter from a paper towel. Simply cut to 5 x 3.5 inches and insert in the pocket. For more information on DIY filters, google “Properfit Clothing How to Make PM2.5 Filters.” "
 
 gallery:
   enable : true
