@@ -63,7 +63,7 @@ use:
     content : "Write your name on the inside of your mask with a sharpie. Do not share masks, even after cleaning."
     # feature item loop
   - title : "Wash"
-    content : "Wash as frequently as possible. Either hand wash in hot soapy water or wash in a lingerie bag in your clothes washer."
+    content : "Wash frequently, either by hand or in a lingerie bag in your clothes washer."
    
   # feature at the right of the image
   rightSide:
