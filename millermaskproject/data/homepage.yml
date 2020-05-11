@@ -44,10 +44,10 @@ masks:
           - "$35 each"
       image: "images/showcase/special-edition-1.png"
       link: "millermaskdesign"
-    - title: "Accordion Design"
+    - title: "Miller Mask Originals"
       content: 
-        - paragraph: "Made by my cousin Joe Van Ginkel of Van Ginkel Athletic Manufacturing Company of Des Moines, Iowa."    
-      image: "images/showcase/accordion-2.png"
+        - paragraph: "Currently under development."    
+      image: "images/showcase/MMPoriginal-1.png"
       link: "accordionmask"
 
 use:
