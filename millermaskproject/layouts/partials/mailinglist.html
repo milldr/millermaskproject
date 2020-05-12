@@ -1,0 +1,19 @@
+{{ if .Site.Data.homepage.mailinglist.enable }}
+{{ with .Site.Data.homepage.mailinglist }}
+<section class="bg-orange section" id="mailinglist">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 text-center">
+        <h2 class="text-white font-weight-bold mb-4">{{ .title | markdownify }}</h2>
+      </div>
+      <div class="col-lg-4 col-sm-4 mb-lg-0 text-white">
+        <p> I will be a button </p>
+      </div>
+      <div class="col-lg-8 col-sm-8 mb-lg-0 text-white">
+        <p>{{ .content | markdownify }} </p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

@@ -12,6 +12,9 @@
   --text-grey: #3b4045;
   --text-white: #fff;
 
+  --font-primary: "Droid Serif", serif;
+  --font-secondary: "Josefin Sans", sans-serif;
+  --font-ternary: "themefisher-font";
 }
 
 body {
@@ -19,7 +22,7 @@ body {
   font-weight: 300;
   line-height: 25px;
   color: var(--text-grey);
-  font-family: "Josefin Sans", sans-serif;
+  font-family: var(--font-secondary);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -166,7 +169,7 @@ a:active {
   padding-bottom: 15px;
   text-transform: capitalize;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 45px;
 }
 
@@ -220,7 +223,7 @@ a:active {
   border-radius: 50%;
   animation: loading 6s infinite reverse linear;
   position: relative;
-  font-family: "themefisher-font" !important;
+  font-family: var(--font-ternary) !important;
 }
 
 .pre-loader:before {
@@ -384,7 +387,7 @@ a:active {
   Gallery start
 --*/
 .gallery {
-  padding: 100px 0;
+  padding: 25px 0;
 }
 
 .gallery .owl-item {
@@ -455,11 +458,11 @@ a:active {
 }
 
 .faq .faq-block p {
-  font-family: "Droid Serif", serif;
+  font-family: var(--font-primary);
   color: var(--text-dark);
 }
 .faq .faq-block li {
-  font-family: "Droid Serif", serif;
+  font-family: var(--font-primary);
   color: var(--text-dark);
 }
 

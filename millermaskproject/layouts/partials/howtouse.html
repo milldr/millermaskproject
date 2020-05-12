@@ -8,24 +8,16 @@
           <h2 class="text-white">{{ .title | markdownify }}</h2>
         </div>
       </div>
-      <div class="col-md-6">
-        {{ range .leftSide }}
+      {{ range .items }}
+      <div class="col-md-4">
         <div class="mb-40 text-center text-md-left">
-          <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
-          <h4 class="font-weight-bold mb-2">{{ .title | markdownify }}</h4>
-          <p>{{ .content | markdownify }}</p>
+          <h3 class="text-center font-weight-bold mb-4">{{ .title | markdownify }}</h3>
+          {{ range .content }}
+          <p>{{ . | markdownify }}</p>
+          {{ end }}
         </div>
-        {{ end }}
       </div>
-      <div class="col-md-6">
-          {{ range .rightSide }}
-        <div class="mb-40 text-center text-md-left">
-          <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
-          <h4 class="font-weight-bold mb-2">{{ .title | markdownify }}</h4>
-          <p>{{ .content | markdownify }}</p>
-        </div>
-        {{ end }}
-      </div>
+      {{ end }}
     </div>
   </div><!-- .container close -->
 </section>

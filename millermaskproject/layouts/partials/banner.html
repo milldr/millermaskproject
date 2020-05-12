@@ -11,9 +11,11 @@
 				<div class="block">
 					<h1 class="font-weight-bold mb-4 font-size-50">{{ .title | markdownify }}</h1>
 					<h3 class="font-italic mb-4 ">{{ .subtitle | markdownify }}</h3>
+          <div class="mb-40">
           {{ range .content }}
-					<p class="mb-4">{{ . | markdownify }}</p>
+					<p class="mb-2">{{ . }}</p>
           {{ end }}
+          </div>
           {{ if .button.enable }}
           {{ with .button }}
           <div class="text-center">
