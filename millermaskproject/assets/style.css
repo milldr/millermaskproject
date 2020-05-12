@@ -4,8 +4,8 @@
 :root {
   --primary-color: rgba(255, 255, 255, 0.85);
   --second-color: #3c3c3c;
-  --second-offset-color: #E7DF86;
-  --third-color: #FCB941;
+  --second-offset-color: #9D161F;
+  --third-color: #9D161F;
 
   --text-darkest: #3c3c3c;
   --text-dark: #777;
@@ -25,6 +25,11 @@ body {
   font-family: var(--font-secondary);
   -webkit-font-smoothing: antialiased;
 }
+
+a {
+  color: var(--third-color);
+}
+
 
 h1,
 h2,
@@ -97,7 +102,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--third-color);
+  background: var(--second-color);
 }
 
 a:focus,
@@ -190,7 +195,7 @@ a:active {
 }
 
 .btn-main:hover, .btn-main:focus {
-  background-color: var(--second-color);
+  background-color: var(--second-offset-color);
   color: var(--text-white);
 }
 
@@ -509,6 +514,10 @@ a:active {
 .contact-content {
   margin-top: 15px;
   text-align: justify;
+}
+
+.contact-content a {
+  color: var(--text-white);
 }
 
 /*--
