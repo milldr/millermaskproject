@@ -447,13 +447,13 @@ a:active {
     service start
 --*/
 .faq .faq-block {
-  padding: 30px 10px;
+  padding: 10px 10px;
 }
 
 .faq .faq-block i {
-  font-size: 40px;
+  font-size: 20px;
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   color: var(--second-color);
 }
 
@@ -466,26 +466,26 @@ a:active {
   color: var(--text-dark);
 }
 
-.faq .faq-block .author-details {
+.faq .faq-block .faq-details {
   margin-top: 0px;
 }
 
-.faq .faq-block .author-details img {
+.faq .faq-block .faq-details img {
   border-radius: 50%;
   width: 50px;
 }
 
-.faq .faq-block .author-details h4 {
+.faq .faq-block .faq-details h4 {
   font-weight: 700;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 25px;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .faq-icon:before { 
   position: absolute;
-  top: 0%;
-  left: 50%;
+  top: 20px;
+  left: 100%;
   display: block;
   font-size: 35px;
   -webkit-transform: translate(-50%, -50%);

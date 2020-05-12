@@ -72,7 +72,7 @@ gallery:
 
 faq:
   enable: true
-  title: "Frequently Asked Questions"
+  title: "FAQs"
   items:
     - question: "How do I wash my mask?"
       answers: 
@@ -132,6 +132,7 @@ contact:
       image: ""
 
 mailinglist:
-  enable: true
+  enable: false
   title: "Mailing List"
   content: "Join my mailing list to be kept up to date on new mask designs or other improvements. I will not share your email, and I not email you more than twice a month. You can unsubscribe at any time"
+  placeholder: "enter your email here"

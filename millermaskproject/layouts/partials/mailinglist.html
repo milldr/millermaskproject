@@ -3,14 +3,25 @@
 <section class="bg-orange section" id="mailinglist">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 col-md-12 text-center">
+      <div class="heading col-lg-12 col-md-12 text-center">
         <h2 class="text-white font-weight-bold mb-4">{{ .title | markdownify }}</h2>
       </div>
-      <div class="col-lg-4 col-sm-4 mb-lg-0 text-white">
-        <p> I will be a button </p>
-      </div>
-      <div class="col-lg-8 col-sm-8 mb-lg-0 text-white">
+      <div class="col-lg-7 col-sm-8 mb-lg-0 text-white">
         <p>{{ .content | markdownify }} </p>
+      </div>
+      <div class="col-lg-5 col-sm-4 mb-lg-0 text-white">
+        <div class="input-group">
+          <form name="contact" {{ if .args }}{{ .args | safeHTMLAttr }}{{ else }}action="/subscribe.js"{{ end }} class="w-100">
+            <input type="email" id="email" class="form-control" name="email" placeholder="{{ .placeholder }}" required>
+            <button class="btn btn-main btn-submit" type="submit">Join</button>
+            <script>
+            function subscribe() {
+                alert('Subscribed!' + email);
+                return false;
+            }
+            </script>
+          </form>
+        </div><!-- /input-group -->
       </div>
     </div>
   </div>
