@@ -12,9 +12,9 @@
   --text-grey: #3b4045;
   --text-white: #fff;
 
-  --font-primary: "Droid Serif", serif;
-  --font-secondary: "Josefin Sans", sans-serif;
-  --font-ternary: "themefisher-font";
+  --font-primary: 'Poller One', cursive;
+  --font-secondary: 'Roboto', sans-serif;
+  --font-ternary: 'Roboto', sans-serif;
 }
 
 body {
@@ -32,6 +32,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: var(--font-primary);
   font-weight: 300;
   margin: 0px;
 }
@@ -458,11 +459,9 @@ a:active {
 }
 
 .faq .faq-block p {
-  font-family: var(--font-primary);
   color: var(--text-dark);
 }
 .faq .faq-block li {
-  font-family: var(--font-primary);
   color: var(--text-dark);
 }
 
@@ -476,6 +475,7 @@ a:active {
 }
 
 .faq .faq-block .faq-details h4 {
+  font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 20px;
   margin-top: 0px;
