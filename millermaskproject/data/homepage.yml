@@ -52,15 +52,19 @@ use:
   items:
     - title: Adjust
       content:
-        - "Form the metal nose piece so that the pressure is on your cheeks, not on your nose."
-        - "Rearrange/tighten the elastic behind your head (you might need to add a knot) so that the mask stays in place but not so tight that the nose wire hurts your nose"
-    - title: Wash and Dry
+        - "Find the metal nose piece. This side is “up.” "
+        - "If you have nape-style elastics, pull both loops over your head. The top loop goes over your ears, the bottom loop goes under your ears. If you need to add a knot, do so conservatively. The elastic should just barely hold the mask in place. If your over-tighten, the nose wire might hurt."
+    - title: Wash When Convenient
       content:
-        - "Wash frequently, either by hand or in a lingerie bag in your clothes washer. "
-        - "Hang dry or dry on a dryer shelf. You can also dry/sterilize masks in a 170 oven if you do so carefully - preheat the oven, place the mask on a dishtowel on a cookie sheet, place it in the center of the oven, set a timer for 30 minutes"
-    - title: No Sharing
+        - "Wash either by hand or in a lingerie bag in a clothes washer on the most gentle cycle."
+        - "I find it easiest to spray it with Fantastik (or similar non-bleach cleaner), let sit 5 minutes, rinse, and drip dry over the kitchen sink.
+"
+    - title: Sterilize Daily
       content:
-        - "Write your name on the inside of your mask with a sharpie. Do not share masks, even after washing"
+        - "Sterilize your mask daily by laying it on a dryer shelf and turning the heat to high for at least 30 minutes."
+        - "Alternately, you can set it in a 170F oven for 30 min. Pre-heat the oven, lay the mask on a dishtowel on a cookie sheet, and set a timer.  Oven temperatures can vary, so it is helpful to check it with a thermometer."
+        - "Do not tumble dry."
+
 
 gallery:
   enable : true
