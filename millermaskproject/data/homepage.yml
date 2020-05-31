@@ -97,6 +97,9 @@ faq:
     - question: "Do you have any filters? What should I put in the pocket? "
       answers: 
         - "The ProperFit mask is designed to hold a PM2.5 filter. Sorry, I cannot supply these. Maybe you will get lucky and find some online. Or you could fold a tissue or cut a paper towel (to ~3.5” x 5”) and slide it in there. Or you could get fancy and google ProperFit’s instructions on “How to Make PM2.5 Filters.” At t=6:50, the video covers the super easy DIY filters. Also, note that the mask does not have to have a filter to offer protection. It still has 2 layers of cotton (as recommended by the CDC) plus a layer of featherweight interfacing."  
+      answerList: 
+        - content: "How to Make PM2.5 Filters"
+          link: "https://www.youtube.com/watch?v=ySgsARkOxkM"
       image: ""    
     - question: "I can’t breathe through the mask!"
       answers: 
