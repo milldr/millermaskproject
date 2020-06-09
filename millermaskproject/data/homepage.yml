@@ -48,22 +48,17 @@ masks:
 
 use:
   enable : true
-  title : "How to Use"
+  title : "Keep Your Mask Virus-Free"
   items:
-    - title: Adjust
+    - title: BAKE IT
       content:
-        - "Find the metal nose piece. This side is “up.” "
-        - "If you have nape-style elastics, pull both loops over your head. The top loop goes over your ears, the bottom loop goes under your ears. If you need to add a knot, do so conservatively. The elastic should just barely hold the mask in place. If your over-tighten, the nose wire might hurt."
-    - title: Wash When Convenient
+        - "The easiest way to keep your mask virus-free is to heat it to 170F for 30 minutes. You can do this in your dryer (on a dryer shelf, set to highest heat) or in your oven (on a dishtowel on a cookie sheet). You do not need to wash it first. Simply pop it in your pre-heated oven, set a timer for 30 minutes, and your mask will be virus-free and ready for its next use."
+    - title: SPRAY IT
       content:
-        - "Wash either by hand or in a lingerie bag in a clothes washer on the most gentle cycle."
-        - "I find it easiest to spray it with Fantastik (or similar non-bleach cleaner), let sit 5 minutes, rinse, and drip dry over the kitchen sink.
-"
-    - title: Sterilize Daily
+        - "Hand wash your mask when it looks dirty or when convenient for you. I recommend spraying it with an EPA approved disinfecting cleaner such as Fantastik® All-Purpose Cleaner.  (Avoid disinfectants with bleach as they will bleach the fabric.)  Let the disinfectant sit for 5-10 minutes before rinsing. Drip dry or “bake it” to accelerate drying."
+    - title: BE GENTLE
       content:
-        - "Sterilize your mask daily by laying it on a dryer shelf and turning the heat to high for at least 30 minutes."
-        - "Alternately, you can set it in a 170F oven for 30 min. Pre-heat the oven, lay the mask on a dishtowel on a cookie sheet, and set a timer.  Oven temperatures can vary, so it is helpful to check it with a thermometer."
-        - "Do not tumble dry."
+        - "You can wash your mask in your clothes washer if you do so carefully.  Put it in a lingerie bag and use the gentlest cycle. Do not tumble dry. The elastics will tangle with your clothes and the nose wire could be damaged."
 
 
 gallery:
