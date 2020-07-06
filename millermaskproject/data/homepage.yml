@@ -20,20 +20,23 @@ masks:
   title: "How to Request a Mask"
   types:
    - title: " "
-      content: 
-        - paragraph: "All masks made from a pattern purchased from ProfitFit Clothing and include:"
-          list:
-            - "Two layers of 100% cotton plus a third hidden layer of non-woven interfacing."
-            - "Pocket for optional filter"
-            - "Nose wire for custom fit around nose"
-      image: "images/showcase/properfit-1.png"
-      link: "properfitmask"   
+     content: 
+       - paragraph: "All masks made from a pattern purchased from ProfitFit Clothing and include:"
+         list:
+           - "Two layers of 100% cotton plus a third hidden layer of non-woven interfacing."
+           - "Pocket for optional filter"
+           - "Nose wire for custom fit around nose"
+     image: "images/showcase/properfit-1.png"
+     
    - title: "#1: Select"
-      content: "MillerMaskProject - Selections"
-          link: "https://docs.google.com/document/d/1KTyQq52tJbe8cy-qQsfnalh7JknzACLl7La2vBqfIEc/edit?usp=sharing"
-         - paragraph: "Select size, fabric, trim color, and attachment type."     
-      image: "images/showcase/MMP-select-1.png"
-      link: "properfitmask"
+     content:
+       - paragraph: "Select size, fabric, trim color, and attachment type."
+     image: "images/showcase/MMP-select-1.png"
+     button:
+       enable: true
+       label : "MillerMaskProject - Selections"
+       link: "https://docs.google.com/document/d/1KTyQq52tJbe8cy-qQsfnalh7JknzACLl7La2vBqfIEc/edit?usp=sharing"
+      
     - title: "#2: Email"
       content: 
         - paragraph: " "
@@ -42,7 +45,7 @@ masks:
             - "I will email you back with expected timing. "
         - paragraph: ""
       image: "images/showcase/MMP-email-1.png"
-      link: "millermaskdesign"
+      
     - title: "#3: Pickup"
       content:
         - paragraph: " "
@@ -50,7 +53,7 @@ masks:
             - "When your masks are done, I will let you know they are ready for pickup from my house in the neighborhood of Clifton in Cincinnati."
             - "If you do not live in Cincinnati, I will ship your masks to you. ($50 min donation for shipped masks)"  
       image: "images/showcase/MMP-pickup-1.png"
-      link: "millermaskdesign"
+      
     - title: "#4: Donate"
       content:
         - paragraph: " "
@@ -58,11 +61,10 @@ masks:
             - "Please make your donation after you receive your masks to be sure I keep up my end of the bargain."
             - "I aim for a donation of $25 per mask, but feel free to be more generous!  I receive no compensation other than knowing that, for each dollar donated, another 10 meals have been provided to our neighbors in need."  
       image: "images/showcase/MMP-donate-1.png"
-      link: "millermaskdesign"
-  button:
-    enable: true
-    label : "Donate to FeedingAmerica - MillerMaskProject"
-    link: "http://help.feedingamerica.org/goto/MillerMaskProject"
+      button:
+        enable: true
+        label : "Donate to FeedingAmerica - MillerMaskProject"
+        link: "http://help.feedingamerica.org/goto/MillerMaskProject"
     
 use:
   enable : true
