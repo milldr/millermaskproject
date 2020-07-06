@@ -27,25 +27,21 @@ masks:
            - "Pocket for optional filter"
            - "Nose wire for custom fit around nose"
      image: "images/showcase/properfit-1.png"
-     
    - title: "#1: Select"
      content:
        - paragraph: "Select size, fabric, trim color, and attachment type."
      image: "images/showcase/MMP-select-1.png"
      button:
        enable: true
-       label : "MillerMaskProject - Selections"
-       link: "https://docs.google.com/document/d/1KTyQq52tJbe8cy-qQsfnalh7JknzACLl7La2vBqfIEc/edit?usp=sharing"
-      
+       label: "MillerMaskProject - Selections"
+       link: "https://docs.google.com/document/d/1KTyQq52tJbe8cy-qQsfnalh7JknzACLl7La2vBqfIEc/edit?usp=sharing" 
     - title: "#2: Email"
       content: 
         - paragraph: " "
           list:
             - "Email me at MillerMaskProject@gmail.com with your choices."
             - "I will email you back with expected timing. "
-        - paragraph: ""
       image: "images/showcase/MMP-email-1.png"
-      
     - title: "#3: Pickup"
       content:
         - paragraph: " "
@@ -53,7 +49,6 @@ masks:
             - "When your masks are done, I will let you know they are ready for pickup from my house in the neighborhood of Clifton in Cincinnati."
             - "If you do not live in Cincinnati, I will ship your masks to you. ($50 min donation for shipped masks)"  
       image: "images/showcase/MMP-pickup-1.png"
-      
     - title: "#4: Donate"
       content:
         - paragraph: " "
