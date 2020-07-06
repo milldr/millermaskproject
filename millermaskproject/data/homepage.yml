@@ -17,35 +17,60 @@ banner:
 
 masks:
   enable: true
-  title: "Masks"
+  title: "How to Request a Mask"
   types:
-    - title: "ProperFit Design"
+   - title: " "
       content: 
-        - paragraph: " "
+        - paragraph: "All masks made from a pattern purchased from ProfitFit Clothing with standard features: "
           list:
-            - "Two layers of 100% cotton plus a third internal layer of non-woven interfacing"
+            - "Two layers of 100% cotton plus a third hidden layer of non-woven interfacing."
             - "Pocket for optional filter"
-            - "Choice of attachment:  ears, nape, or fabric ties"
             - "Nose wire for custom fit around nose"
-        - paragraph: "Suggested donation: $25 each"
       image: "images/showcase/properfit-1.png"
-      link: "properfitmask"
-    - title: "Properfit Design, Special Edition Fabrics"
+      link: "properfitmask"   
+   - title: "#1: Select"
+      content: 
+        - paragraph: "Select your Custom features"
+          list:
+            - "Size"
+            - "Fabric"
+            - "Trim Color"  
+            - "Attachment type: ears, nape, or fabric ties"
+            - content: "MillerMaskProject - Selections"
+          link: "https://docs.google.com/document/d/1KTyQq52tJbe8cy-qQsfnalh7JknzACLl7La2vBqfIEc/edit?usp=sharing"
+         - paragraph: " "     
+      image: "images/showcase/MMP-select-1.png"
+      link: "https://docs.google.com/document/d/1KTyQq52tJbe8cy-qQsfnalh7JknzACLl7La2vBqfIEc/edit?usp=sharing"
+    - title: "#2: Email"
       content: 
         - paragraph: " "
           list:
-            - "Same Properfit design"
-            - "Top layer: Seriously cute, special ordered fabric"
-            - "Current special edition fabrics: Flying Pigs and FC Cincinnati"
-        - paragraph: "Suggested donation: $35 each"
-      image: "images/showcase/special-edition-1.png"
+            - "Email me at MillerMaskProject@gmail.com with your choices."
+            - "I will email you back with expected timing. "
+        - paragraph: ""
+      image: "images/showcase/MMP-email-1.png"
       link: "millermaskdesign"
-    - title: "Miller Mask Originals"
-      content: 
-        - paragraph: "Currently under development"    
-      image: "images/showcase/MMPoriginal-1.png"
-      link: "accordionmask"
-
+    - title: "#3: Pickup"
+      content:
+        - paragraph: " "
+          list:
+            - "When your masks are done, I will let you know they are ready for pickup from my house in the neighborhood of Clifton in Cincinnati."
+            - "If you do not live in Cincinnati, I will ship your masks to you. ($50 min donation for shipped masks)"  
+      image: "images/showcase/MMP-pickup-1.png"
+      link: "millermaskdesign"
+    - title: "#4: Donate"
+      content:
+        - paragraph: " "
+          list:
+            - "Please make your donation after you receive your masks to be sure I keep up my end of the bargain."
+            - "I aim for a donation of $25 per mask, but feel free to be more generous!  I receive no compensation other than knowing that, for each dollar donated, another 10 meals have been provided to our neighbors in need."  
+      image: "images/showcase/MMP-donate-1.png"
+      link: "http://help.feedingamerica.org/goto/MillerMaskProject"
+  button:
+    enable: true
+    label : "Donate to FeedingAmerica - MillerMaskProject"
+    link: "http://help.feedingamerica.org/goto/MillerMaskProject"
+    
 use:
   enable : true
   title : "Keep Your Mask Virus-Free"
