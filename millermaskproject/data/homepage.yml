@@ -21,7 +21,7 @@ masks:
   types:
    - title: " "
       content: 
-        - paragraph: "All masks made from a pattern purchased from ProfitFit Clothing with standard features: "
+        - paragraph: "All masks made from a pattern purchased from ProfitFit Clothing and include:"
           list:
             - "Two layers of 100% cotton plus a third hidden layer of non-woven interfacing."
             - "Pocket for optional filter"
@@ -29,18 +29,11 @@ masks:
       image: "images/showcase/properfit-1.png"
       link: "properfitmask"   
    - title: "#1: Select"
-      content: 
-        - paragraph: "Select your Custom features"
-          list:
-            - "Size"
-            - "Fabric"
-            - "Trim Color"  
-            - "Attachment type: ears, nape, or fabric ties"
-            - content: "MillerMaskProject - Selections"
+      content: "MillerMaskProject - Selections"
           link: "https://docs.google.com/document/d/1KTyQq52tJbe8cy-qQsfnalh7JknzACLl7La2vBqfIEc/edit?usp=sharing"
-         - paragraph: " "     
+         - paragraph: "Select size, fabric, trim color, and attachment type."     
       image: "images/showcase/MMP-select-1.png"
-      link: "https://docs.google.com/document/d/1KTyQq52tJbe8cy-qQsfnalh7JknzACLl7La2vBqfIEc/edit?usp=sharing"
+      link: "properfitmask"
     - title: "#2: Email"
       content: 
         - paragraph: " "
@@ -65,7 +58,7 @@ masks:
             - "Please make your donation after you receive your masks to be sure I keep up my end of the bargain."
             - "I aim for a donation of $25 per mask, but feel free to be more generous!  I receive no compensation other than knowing that, for each dollar donated, another 10 meals have been provided to our neighbors in need."  
       image: "images/showcase/MMP-donate-1.png"
-      link: "http://help.feedingamerica.org/goto/MillerMaskProject"
+      link: "millermaskdesign"
   button:
     enable: true
     label : "Donate to FeedingAmerica - MillerMaskProject"
